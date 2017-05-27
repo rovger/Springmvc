@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+            http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+    <!-- do initialize -->
+    <bean id="doInit" class="com.rovger.Initializer" init-method="init"></bean>
+
+    <!--  Allow proxys -->
+    <aop:aspectj-autoproxy />
+    <bean id="sleep" class="com.rovger.aop.Human"></bean>
+    <bean id="sleepHelper" class="com.rovger.aop.SleepHelper"></bean>
+
+    <!-- 导入mongodb配置文件 -->
+    <import resource="mongodb-context.xml"></import>
+    <bean id="userDao" class="com.rovger.dao.UserDAO"></bean>
+
+    <!-- 在xml配置了这个标签后，spring可以自动去扫描base-package下面或者子包下面的java文件， 如果扫描到有@Component @Controller@Service等这些注解的类，则把这些类注册为bean -->
+    <context:component-scan base-package="com.rovger.controller">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!-- task package -->
+    <context:component-scan base-package="com.rovger.task"/>
+
+    <task:annotation-driven scheduler="springTask"/>
+    <bean id="springTask" class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">
+        <property name="poolSize" value="3"/>
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy"/>
+        </property>
+    </bean>
+
+</beans>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <!--说明：加载顺序为：context-param -> listener -> filter -> servlet-->
+  <display-name>MySpring</display-name>
+  <description>A Demo For Spring</description>
+  <!--welcome pages-->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- Spring监听器 -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!-- Spring上下文参数 -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:spring-context.xml</param-value>
+  </context-param>
+  <!--log4j资源文件，log4jRefreshInterval为每60秒，开一条watchdog线程每60秒刷新一次配置文件变化-->
+  <context-param>
+    <param-name>log4jConfigLocation</param-name>
+    <param-value>classpath:log4j.properties</param-value>
+  </context-param>
+
+  <!-- 在请求到达servlet之前预处理请求，在响应离开servlet之后处理http响应，一般是编码 -->
+  <filter>
+    <filter-name>requestContextFilter</filter-name>
+    <filter-class>org.springframework.web.filter.RequestContextFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>requestContextFilter</filter-name>
+    <servlet-name>*</servlet-name>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+
+  <!--配置springmvc servlet-->
+  <servlet>
+    <servlet-name>dispatchServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <!--Sources标注的文件夹下需要新建一个spring文件夹-->
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:mvc-servlet.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>contextClass</param-name>
+      <param-value>org.springframework.web.context.support.XmlWebApplicationContext</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <!-- 配置Jersey + Spring servlet -->
+  <servlet>
+    <servlet-name>jersey-servlet</servlet-name>
+    <servlet-class>com.sun.jersey.spi.spring.container.servlet.SpringServlet</servlet-class>
+    <init-param>
+      <!--Sources标注的文件夹下需要新建一个spring文件夹-->
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:jersey-servlet.xml</param-value>
+    </init-param>
+    <!-- 0或大于0：表示容器启动时就加载并初始化这个servlet，
+         小于0或未指定：表示只有在第一次请求，容器才调用初始化函数，init()-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispatchServlet</servlet-name>
+    <url-pattern>/views/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jersey-servlet</servlet-name>
+    <url-pattern>/apis/*</url-pattern>
+  </servlet-mapping>
+
+  <!--
+       struts2中的过滤器和拦截器的区别与联系：
+      （1）、拦截器是基于java反射机制的，而过滤器是基于函数回调的。
+      （2）、过滤器依赖与servlet容器，而拦截器不依赖与servlet容器。
+      （3）、拦截器只能对Action请求起作用，而过滤器则可以对几乎所有请求起作用。
+      （4）、拦截器可以访问Action上下文、值栈里的对象，而过滤器不能。
+      （5）、在Action的生命周期中，拦截器可以多次调用，而过滤器只能在容器初始化时被调用一次。
+  -->
+</web-app>

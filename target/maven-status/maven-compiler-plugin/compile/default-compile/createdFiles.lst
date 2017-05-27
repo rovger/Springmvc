@@ -1,0 +1,15 @@
+com\rovger\aop\Human.class
+com\rovger\task\SpringTaskManager.class
+com\rovger\aop\Sleepable.class
+com\rovger\reources\HelloWorldService.class
+com\rovger\task\work\Task3.class
+com\rovger\entity\User.class
+com\rovger\Initializer.class
+com\rovger\task\work\Task1.class
+com\rovger\dao\IBaseDAO.class
+com\rovger\controller\HomeController.class
+com\rovger\aop\SleepHelper.class
+com\rovger\demo\reflect\ReflectTest.class
+com\rovger\task\work\Task2.class
+com\rovger\entity\Student.class
+com\rovger\dao\UserDAO.class
