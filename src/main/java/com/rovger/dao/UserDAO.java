@@ -14,6 +14,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Date;
 
 /**
+ * Mongo Test v1.0
  * Created by weijlu on 2017/5/24.
  */
 @Repository
@@ -30,7 +31,14 @@ public class UserDAO implements IBaseDAO<User>{
 	}
 
 	public void del(String str, String collectionName) {
-
+		Query queryStr = new Query(Criteria.where("nickname").is(str));
+		try {
+			logger.info("UserDAO.del(),一个用户即将被删除...");
+			this.mongoTemplate.remove(queryStr, User.class);
+			logger.info("UserDAO.del(),一个用户已经被删除...");
+		} catch (Exception ex) {
+			logger.error("UserDAO.del(),出现异常，", ex.getMessage());
+		}
 	}
 
 	public User update(User entity, String collectionName) {

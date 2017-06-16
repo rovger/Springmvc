@@ -63,7 +63,7 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.5.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:2.10.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:2.14.3" level="project" />
   </component>
 </module>

@@ -14,7 +14,7 @@ public enum TimeType {
 
     MINUTELY("MINUTE"),
     HOURLY("HOUR"),
-    DAYLY("DAY"),
+    DAILY("DAY"),
     WEEKLY("WEEK"),
     MONTHLY("MONTH")
     ;

@@ -28,10 +28,16 @@ public class MongoTest {
 	}
 
 	@Test
+	public void testDel() {
+		userDao.del("Lily", collectionName);
+		System.out.println("=======delete successfully=======");
+	}
+
+	@Test
 	public void testUpdate() {
 		User user = new User("Lily", "b111111", "Lily@163.com", "13661841425", new Date());
 		User newUser = (User) userDao.update(user, collectionName);
-		System.out.println("============="+ user.getNickname());
+		System.out.println("============="+ newUser.getNickname());
 	}
 
 	@Test
