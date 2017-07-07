@@ -37,4 +37,30 @@
         </property>
     </bean>
 
+    <!-- 线程池配置 -->
+    <bean id="threadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <!--核心线程数，会一直存活，即使没有任务，当线程数小于核心线程数时，即使是空闲线程也会优先创建新线程处理。
+            设置allowCoreThreadTimeout=true（默认false）时，核心线程会超时关闭。默认为1-->
+        <property name="corePoolSize" value="10"/>
+        <!--最大线程数，当线程数>=核心线程数时，且任务队列已满时，线程池会创建新的线程来处理任务。默认为Integer.MAX_VALUE-->
+        <property name="maxPoolSize" value="50"/>
+        <!--任务队列容量，当核心线程数达到最大时，新任务会在队列中排队等待执行-->
+        <property name="queueCapacity" value="1000"/>
+        <!--线程空闲时间，当线程空闲时间达到keepAliveSeconds时，线程会退出直到线程数==核心线程数，默认60s-->
+        <property name="keepAliveSeconds" value="120"/>
+        <!--任务拒绝处理器，
+            1.当线程数达到maxPoolSize时，且任务队列已满，会拒绝新任务；
+            2.当线程池被调用shutdown()后，会等待线程池里的任务执行完毕再shutdown，如果在调用shutdown()和线程池正真shutdown之间提交任务，会拒绝任务。
+            线程池会调用rejectedExecutionHandler来处理这个任务。如果没有设置默认是AbortPolicy，会抛出异常
+            ThreadPoolExecutor类有几个内部实现类来处理这类情况：
+            AbortPolicy 丢弃任务，抛运行时异常
+            CallerRunsPolicy 执行任务
+            DiscardPolicy 忽视，什么都不会发生
+            DiscardOldestPolicy 从队列中踢出最先进入队列（最后一个执行）的任务
+            实现RejectedExecutionHandler接口，可自定义处理器-->
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy"></bean>
+        </property>
+    </bean>
+
 </beans>
