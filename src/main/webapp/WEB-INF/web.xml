@@ -9,11 +9,6 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
-  <!-- Spring监听器 -->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-
   <!-- Spring上下文参数 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
@@ -24,6 +19,11 @@
     <param-name>log4jConfigLocation</param-name>
     <param-value>classpath:log4j.properties</param-value>
   </context-param>
+
+  <!-- Spring监听器 -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
 
   <!-- 在请求到达servlet之前预处理请求，在响应离开servlet之后处理http响应，一般是编码 -->
   <filter>
