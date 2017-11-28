@@ -3,12 +3,13 @@ package com.rovger.demo.utils;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * Created by weijlu on 2017/3/20.
  */
 public class DateFormat {
-	public static void main(String args[]) {
+	public static void main(String args[]) throws ParseException {
 		/*String time = "2017-03-20T00:46:23Z";
 		String date_time = "2017-03-20T01:00:37.000Z";
 		try {
@@ -16,10 +17,18 @@ public class DateFormat {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}*/
-		Date now = new Date();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		System.out.println("当前时间：" + sdf.format(now));
-
+		/*String startDate = "07-27-2017";
+		String endDate = "07-30-2017";
+		SimpleDateFormat format = new SimpleDateFormat("MM-dd-yyyy");
+		Date start = format.parse(startDate);
+		Date end = format.parse(endDate);
+		while (end.getTime()>=start.getTime()) {
+			SimpleDateFormat sdf = new SimpleDateFormat("MMM-dd-yyyy", Locale.ENGLISH);
+			System.out.println("当前时间：" + sdf.format(end));
+		}*/
+		String str = "\"345/5675/rrr\"";
+		System.out.println(str);
+		System.out.println(str.substring(1, str.length()-1));
 
 	}
 
