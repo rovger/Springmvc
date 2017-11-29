@@ -2,6 +2,7 @@ package com.rovger.demo.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -26,9 +27,10 @@ public class DateFormat {
 			SimpleDateFormat sdf = new SimpleDateFormat("MMM-dd-yyyy", Locale.ENGLISH);
 			System.out.println("当前时间：" + sdf.format(end));
 		}*/
-		String str = "\"345/5675/rrr\"";
-		System.out.println(str);
-		System.out.println(str.substring(1, str.length()-1));
+
+		Calendar cal = Calendar.getInstance();
+		int weekOfYear = cal.get(Calendar.WEEK_OF_YEAR);
+		System.out.println(weekOfYear);
 
 	}
 

@@ -1,6 +1,6 @@
 package threadpools;
 
-import com.rovger.task.threadPools.StartTaskThread;
+import com.rovger.demo.utils.ThreadUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,20 +8,47 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by weijlu on 2017/7/5.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:spring-context.xml")
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration(locations = "classpath:spring-context.xml")
 public class ThreadPoolsTest {
 
-    @Autowired
-    ThreadPoolTaskExecutor executor;
+    /*@Autowired
+    ThreadPoolTaskExecutor executor;*/
 
     @Test
     public void testThreadPoolTaskExecutor() {
-        for (int i=0; i<10; i++) {
-            new Thread(new StartTaskThread(executor, i)).start();
+        List<Integer> tests = new ArrayList();
+        for (int i=0; i<10000; i++) {
+            tests.add(i);
+        }
+        try {
+            List<Integer> respList = new SpecialThread().buildList(tests, 3000, 10, Integer.class);
+            for (Integer resp : respList) {
+                System.out.println(resp);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private class SpecialThread extends ThreadUtil {
+
+        @Override
+        protected <X, T> List<X> getObject(List<T> list, Class<X> x, Object... others) {
+            List<X> resp = new ArrayList<>();
+            for (T num : list) {
+                Integer cur = (Integer) num;
+                if (cur % 1000 == 0) {
+                    resp.add((X)cur);
+                }
+            }
+            return resp;
         }
     }
 }
