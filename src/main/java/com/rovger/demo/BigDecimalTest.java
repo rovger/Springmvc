@@ -1,4 +1,4 @@
-package com.rovger.demo.utils;
+package com.rovger.demo;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

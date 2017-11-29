@@ -1,6 +1,6 @@
 package utils;
 
-import com.rovger.demo.utils.TimeType;
+import com.rovger.demo.TimeType;
 import org.junit.Test;
 
 /**

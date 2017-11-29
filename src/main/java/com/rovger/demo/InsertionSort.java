@@ -1,4 +1,4 @@
-package com.rovger.demo.utils;
+package com.rovger.demo;
 
 /**
  * Created by weijlu on 2017/8/8.
