@@ -14,6 +14,6 @@ public class MathRoundDemo {
 
 		System.out.println(new Random().nextInt(1));
 
-		//System.out.println("---"+TimeType.DAILY.getName());
+		//System.out.println("---"+TimeType.DAILY.getNickname());
 	}
 }

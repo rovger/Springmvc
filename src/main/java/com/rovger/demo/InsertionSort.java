@@ -85,7 +85,7 @@ public class InsertionSort {
             }
         }
         //对可能所在行进行二分查找
-        for (int i=0; i<=rowdown; i++) {
+        for (int i=rowup; i<=rowdown; i++) {
             int start = 0, end = cols-1;
             while (start <= end) {
                 middle = (start+end)/2;

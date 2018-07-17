@@ -3,27 +3,22 @@
           http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
   <!--说明：加载顺序为：context-param -> listener -> filter -> servlet-->
   <display-name>MySpring</display-name>
-  <description>A Demo For Spring</description>
+  <description>A Demo For Spring Around</description>
   <!--welcome pages-->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
-  <!-- Spring上下文参数 -->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring-context.xml</param-value>
-  </context-param>
+  <!-- Spring监听器 -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
   <!--log4j资源文件，log4jRefreshInterval为每60秒，开一条watchdog线程每60秒刷新一次配置文件变化-->
   <context-param>
     <param-name>log4jConfigLocation</param-name>
     <param-value>classpath:log4j.properties</param-value>
   </context-param>
-
-  <!-- Spring监听器 -->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
 
   <!-- 在请求到达servlet之前预处理请求，在响应离开servlet之后处理http响应，一般是编码 -->
   <filter>
@@ -45,7 +40,7 @@
     <init-param>
       <!--Sources标注的文件夹下需要新建一个spring文件夹-->
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:mvc-servlet.xml</param-value>
+      <param-value>classpath:spring-context.xml</param-value>
     </init-param>
     <init-param>
       <param-name>contextClass</param-name>
@@ -53,26 +48,9 @@
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
-  <!-- 配置Jersey + Spring servlet -->
-  <servlet>
-    <servlet-name>jersey-servlet</servlet-name>
-    <servlet-class>com.sun.jersey.spi.spring.container.servlet.SpringServlet</servlet-class>
-    <init-param>
-      <!--Sources标注的文件夹下需要新建一个spring文件夹-->
-      <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:jersey-servlet.xml</param-value>
-    </init-param>
-    <!-- 0或大于0：表示容器启动时就加载并初始化这个servlet，
-         小于0或未指定：表示只有在第一次请求，容器才调用初始化函数，init()-->
-    <load-on-startup>1</load-on-startup>
-  </servlet>
   <servlet-mapping>
     <servlet-name>dispatchServlet</servlet-name>
-    <url-pattern>/views/*</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>jersey-servlet</servlet-name>
-    <url-pattern>/apis/*</url-pattern>
+    <url-pattern>/springaround/*</url-pattern>
   </servlet-mapping>
 
   <!--

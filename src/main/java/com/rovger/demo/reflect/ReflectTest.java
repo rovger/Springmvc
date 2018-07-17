@@ -2,7 +2,6 @@ package com.rovger.demo.reflect;
 
 import com.rovger.entity.Student;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
@@ -15,8 +14,8 @@ public class ReflectTest {
 		//实例化一个Student类
 		Student student1 = new Student();
 		student1.setAge(25);
-		student1.setName("Rovger");
-		System.out.println(student1.getName()+"的年龄："+student1.getAge());
+		student1.setNickname("Rovger");
+		System.out.println(student1.getNickname()+"的年龄："+student1.getAge());
 		//反射实例化
 		try {
 			Class cl1 = ReflectTest.class.getClassLoader().loadClass("com.rovger.entity.Student");
@@ -32,7 +31,7 @@ public class ReflectTest {
 //			Field field = Student.class.getDeclaredField("age");//2
 //			field.set(student1, 30);
 			student1.getClass().getField("age").set(student1, 40);
-			System.out.println(student1.getName()+"的年龄："+student1.getAge());
+			System.out.println(student1.getNickname()+"的年龄："+student1.getAge());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -40,7 +39,7 @@ public class ReflectTest {
 		//获取Student类中所有方法
 		Method[] methods = Student.class.getMethods();
 		for (Method m : methods) {
-//			System.out.println(m.getName());
+//			System.out.println(m.getNickname());
 		}
 	}
 

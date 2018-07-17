@@ -1,6 +1,6 @@
 package mongo;
 
-import com.rovger.dao.IBaseDAO;
+import com.rovger.dao.UserDAO;
 import com.rovger.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ import java.util.Date;
 public class MongoTest {
 
 	@Autowired
-	private IBaseDAO userDao;
+	private UserDAO userDao;
 	private String collectionName = "user";
 
 	@Test

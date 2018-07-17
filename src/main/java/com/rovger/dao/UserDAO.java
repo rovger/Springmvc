@@ -11,14 +11,12 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
 
-import java.util.Date;
-
 /**
  * Mongo Test v1.0
  * Created by weijlu on 2017/5/24.
  */
 @Repository
-public class UserDAO implements IBaseDAO<User>{
+public class UserDAO {
 
 	Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
 	@Autowired

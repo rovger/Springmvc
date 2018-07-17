@@ -25,7 +25,7 @@ public enum TimeType {
     }
 
     public String getName() {
-        return this.type;
+        return name();//获取“MINUTELY”这种字符串
     }
 
     /**

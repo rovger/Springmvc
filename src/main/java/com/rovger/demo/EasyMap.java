@@ -5,7 +5,7 @@ package com.rovger.demo;
  */
 public class EasyMap<K, V> {
     private static int arraySize = 10;
-    private EasyEntry[] keys = null;
+    private EasyEntry[] keys;
 
     public EasyMap() {
         keys = new EasyEntry[arraySize];
@@ -13,8 +13,7 @@ public class EasyMap<K, V> {
 
     public V put(K key, V value) {
         int hash = getHash(key);
-        EasyEntry<K, V> entry = keys[hash];
-        while (entry != null) {
+        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
             if (entry.getKey().hashCode()==key.hashCode() &&
                     (entry.getKey()==key || entry.getKey().equals(key))) {
                 V oldVal = entry.getValue();
@@ -31,15 +30,19 @@ public class EasyMap<K, V> {
 
     public V get(K key) {
         int hash = getHash(key);
-        EasyEntry<K, V> entry = keys[hash];
-        return entry == null ? null : entry.getValue();
+        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
+            if (entry.getKey().hashCode()==key.hashCode() &&
+                    (entry.getKey() == key || entry.getKey().equals(key))) {
+                return entry == null ? null : entry.getValue();
+            }
+        }
+        return null;
     }
 
     public EasyEntry<K, V> remove(K key) {
         int hash = getHash(key);
-        EasyEntry<K, V> entry = keys[hash];
         EasyEntry pre = null;
-        while (entry != null) {
+        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
             if (entry.getKey().hashCode()==key.hashCode() &&
                     (entry.getKey()==key || entry.getKey().equals(key))) {
                 if (pre == null) {
@@ -59,36 +62,40 @@ public class EasyMap<K, V> {
         return  hash % arraySize;
     }
 
-}
+    /**
+     * 静态内部类
+     * @param <K>
+     * @param <V>
+     */
+    static class EasyEntry<K, V> {
+        final K key;
+        V value;
+        EasyEntry<K, V> next;
 
-class EasyEntry<K, V> {
-    final K key;
-    V value;
-    EasyEntry<K, V> next;
+        public EasyEntry(K key, V value, EasyEntry<K, V> next) {
+            this.key = key;
+            this.value = value;
+            this.next = next;
+        }
 
-    public EasyEntry(K key, V value, EasyEntry<K, V> next) {
-        this.key = key;
-        this.value = value;
-        this.next = next;
-    }
+        public K getKey() {
+            return key;
+        }
 
-    public K getKey() {
-        return key;
-    }
+        public V getValue() {
+            return value;
+        }
 
-    public V getValue() {
-        return value;
-    }
+        public void setValue(V value) {
+            this.value = value;
+        }
 
-    public void setValue(V value) {
-        this.value = value;
-    }
+        public EasyEntry<K, V> getNext() {
+            return next;
+        }
 
-    public EasyEntry<K, V> getNext() {
-        return next;
-    }
-
-    public void setNext(EasyEntry<K, V> next) {
-        this.next = next;
+        public void setNext(EasyEntry<K, V> next) {
+            this.next = next;
+        }
     }
 }

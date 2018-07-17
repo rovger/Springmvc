@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rovger.dao.StudentDao">
+    <!-- #{}是经过预编译的，是安全的；${}是未经过预编译的，仅仅是取变量的值，是非安全的，存在SQL注入 -->
+    <!-- 因为mybatis启用了预编译功能，能有效的防止SQL注入，下面的查询语句打印：select * from student where id=? -->
+    <select id="getStudent" parameterType="int" resultType="com.rovger.entity.Student">
+        select * from student where id=#{id}
+    </select>
+    <insert id="addStudent" parameterType="com.rovger.entity.Student">
+        insert into student values(#{id}, #{nickname}, #{age}, #{grade}, #{score})
+    </insert>
+</mapper>
