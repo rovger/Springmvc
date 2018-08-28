@@ -1,7 +1,7 @@
 package com.rovger.service;
 
 import com.rovger.dao.StudentDao;
-import com.rovger.entity.Student;
+import com.rovger.mybatis.entity.Student;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

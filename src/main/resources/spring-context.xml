@@ -17,7 +17,7 @@
     <context:property-placeholder location="classpath:db.properties"/>
 
     <!-- 导入mongodb配置文件 -->
-    <beans:import resource="mongodb-context.xml"></beans:import>
+    <beans:import resource="spring-mongo.xml"></beans:import>
     <!-- 导入Mybatis配置文件 -->
     <beans:import resource="spring-mybatis.xml"></beans:import>
 

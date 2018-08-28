@@ -1,4 +1,4 @@
-package com.rovger.entity;
+package com.rovger.mybatis.entity;
 
 /**
  * Created by weijlu on 2017/4/1.

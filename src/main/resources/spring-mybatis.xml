@@ -20,7 +20,7 @@
     <beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <beans:property name="dataSource" ref="dataSource"></beans:property>
         <beans:property name="configLocation" value="classpath:sqlMapConfig.xml"></beans:property>
-        <beans:property name="mapperLocations" value="classpath:mapping/*.xml"></beans:property>
+        <beans:property name="mapperLocations" value="classpath:mapper/*.xml"></beans:property>
     </beans:bean>
     <!-- mybatis spring sqlSessionTemplate,使用时直接让spring注入即可 -->
     <beans:bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">

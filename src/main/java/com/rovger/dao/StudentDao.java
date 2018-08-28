@@ -1,6 +1,6 @@
 package com.rovger.dao;
 
-import com.rovger.entity.Student;
+import com.rovger.mybatis.entity.Student;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 

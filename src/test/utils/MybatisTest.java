@@ -1,6 +1,6 @@
 package utils;
 
-import com.rovger.entity.Student;
+import com.rovger.mybatis.entity.Student;
 import com.rovger.service.IStudentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

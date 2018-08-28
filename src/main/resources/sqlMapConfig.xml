@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.rovger.entity.Student" alias="Student"/>
+        <typeAlias type="com.rovger.mybatis.entity.Student" alias="Student"/>
     </typeAliases>
 </configuration>

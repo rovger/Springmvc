@@ -1,4 +1,4 @@
-package com.rovger.entity;
+package com.rovger.mybatis.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.PersistenceConstructor;
