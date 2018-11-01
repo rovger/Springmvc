@@ -1,6 +1,6 @@
 package com.rovger.dao;
 
-import com.rovger.mybatis.entity.User;
+import com.rovger.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

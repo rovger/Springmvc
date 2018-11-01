@@ -1,6 +1,6 @@
 package utils;
 
-import com.rovger.mybatis.entity.Student;
+import com.rovger.entity.Student;
 import com.rovger.service.IStudentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,14 +20,14 @@ public class MybatisTest {
 
     @Test
     public void testMybatis() {
-        Student student = new Student();
+        /*Student student = new Student();
         student.setId(2);
         student.setNickname("Eason");
         student.setAge(3);
         student.setGrade(1);
         student.setScore(95);
-        service.addStudent(student);
-        /*Student stu = service.getStudent(1);
-        System.out.println("Mybatis query result:"+ stu.toString());*/
+        service.addStudent(student);*/
+        Student stu = service.getStudent(1);
+        System.out.println("Mybatis query result:"+ stu.toString());
     }
 }

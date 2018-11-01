@@ -1,6 +1,6 @@
 package com.rovger.service;
 
-import com.rovger.mybatis.entity.Student;
+import com.rovger.entity.Student;
 
 public interface IStudentService extends IPerson {
 

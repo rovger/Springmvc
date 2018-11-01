@@ -1,6 +1,6 @@
 package com.rovger.demo;
 
-import com.rovger.mybatis.entity.Student;
+import com.rovger.entity.Student;
 
 import java.util.*;
 

@@ -16,8 +16,8 @@ import javax.annotation.PostConstruct;
  */
 @Service
 public class SpringTaskManager {
-
-	@Autowired
+	//由于Dubbo的启动，暂时停止spring schedule的任务
+	/*@Autowired
 	@Qualifier("springTask")
 	private TaskScheduler scheduler;
 
@@ -26,6 +26,6 @@ public class SpringTaskManager {
 		scheduler.schedule(new Task1(), new CronTrigger("15 * * * * *"));
 		scheduler.schedule(new Task2(), new CronTrigger("30 * * * * *"));
 		scheduler.schedule(new Task3(), new CronTrigger("45 * * * * *"));
-	}
+	}*/
 
 }

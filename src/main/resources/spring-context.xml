@@ -20,6 +20,8 @@
     <beans:import resource="spring-mongo.xml"></beans:import>
     <!-- 导入Mybatis配置文件 -->
     <beans:import resource="spring-mybatis.xml"></beans:import>
+    <!-- 导入Dubbo provider配置文件 -->
+    <beans:import resource="provider.xml"></beans:import>
 
     <!-- do initialize -->
     <beans:bean id="doInit" class="com.rovger.Initializer" init-method="init"></beans:bean>

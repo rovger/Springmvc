@@ -1,53 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:task="http://www.springframework.org/schema/task"
-       xmlns:aop="http://www.springframework.org/schema/aop"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
-            http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd
-            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+             xmlns:mvc="http://www.springframework.org/schema/mvc"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:context="http://www.springframework.org/schema/context"
+             xmlns:aop="http://www.springframework.org/schema/aop"
+             xmlns:task="http://www.springframework.org/schema/task"
+             xsi:schemaLocation="
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+
+    <!-- 加在mybatis配置信息,且这种配置方式整个项目只能用一次,如果在多个context xml文件中使用则无法加载到properties文件的值 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!-- 导入mongodb配置文件 -->
+    <beans:import resource="spring-mongo.xml"></beans:import>
+    <!-- 导入Mybatis配置文件 -->
+    <beans:import resource="spring-mybatis.xml"></beans:import>
+    <!-- 导入Dubbo provider配置文件 -->
+    <beans:import resource="provider.xml"></beans:import>
 
     <!-- do initialize -->
-    <bean id="doInit" class="com.rovger.Initializer" init-method="init"></bean>
+    <beans:bean id="doInit" class="com.rovger.Initializer" init-method="init"></beans:bean>
 
     <!--  Allow proxys -->
     <aop:aspectj-autoproxy />
-    <bean id="sleep" class="com.rovger.aop.Human"></bean>
-    <bean id="sleepHelper" class="com.rovger.aop.SleepHelper"></bean>
-
-    <!-- 导入mongodb配置文件 -->
-    <import resource="mongodb-context.xml"></import>
-    <bean id="userDao" class="com.rovger.dao.UserDAO"></bean>
+    <beans:bean id="sleep" class="com.rovger.aop.Human"></beans:bean>
+    <beans:bean id="sleepHelper" class="com.rovger.aop.SleepHelper"></beans:bean>
 
     <!-- 在xml配置了这个标签后，spring可以自动去扫描base-package下面或者子包下面的java文件， 如果扫描到有@Component @Controller@Service等这些注解的类，则把这些类注册为bean -->
-    <context:component-scan base-package="com.rovger.controller">
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-    </context:component-scan>
-
-    <!-- task package -->
+    <context:component-scan base-package="com.rovger.controller"/>
+    <context:component-scan base-package="com.rovger.service"/>
+    <context:component-scan base-package="com.rovger.dao"/>
     <context:component-scan base-package="com.rovger.task"/>
 
+    <!-- Spring Schedule configuration -->
     <task:annotation-driven scheduler="springTask"/>
-    <bean id="springTask" class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">
-        <property name="poolSize" value="3"/>
-        <property name="rejectedExecutionHandler">
-            <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy"/>
-        </property>
-    </bean>
+    <task:scheduler id="springTask" pool-size="3"/>
+
+    <!-- 配置注解驱动 可以将request参数绑定到controller参数上 -->
+    <mvc:annotation-driven/>
+    <context:component-scan base-package="com.rovger.controller" />
+    <!-- Handles HTTP GET requests by efficiently serving up static resources
+	     in the corresponding directory -->
+    <mvc:resources mapping="/js/**" location="/statics/js/" />
+    <mvc:resources mapping="/css/**" location="/statics/css/" />
+    <mvc:resources mapping="/image/**" location="/statics/image/" />
+
+    <!-- 对模型视图名称的解析，即在模型视图名称添加前后缀(如果最后一个还是表示文件夹,则最后的斜杠不要漏了) 使用JSP-->
+    <!-- 默认的视图解析器 在上边的解析错误时使用 (默认使用html)- -->
+    <beans:bean id="defaultViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <beans:property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <beans:property name="prefix" value="/WEB-INF/views/"/><!--设置JSP文件的目录位置-->
+        <beans:property name="suffix" value=".jsp"/>
+    </beans:bean>
+
+    <!-- 文件上传配置 -->
+    <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <beans:property name="maxUploadSize" value="209715200" />
+        <beans:property name="defaultEncoding" value="UTF-8" />
+        <beans:property name="resolveLazily" value="true" />
+    </beans:bean>
 
     <!-- 线程池配置 -->
-    <bean id="threadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+    <beans:bean id="threadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <!--核心线程数，会一直存活，即使没有任务，当线程数小于核心线程数时，即使是空闲线程也会优先创建新线程处理。
             设置allowCoreThreadTimeout=true（默认false）时，核心线程会超时关闭。默认为1-->
-        <property name="corePoolSize" value="10"/>
+        <beans:property name="corePoolSize" value="10"/>
         <!--最大线程数，当线程数>=核心线程数时，且任务队列已满时，线程池会创建新的线程来处理任务。默认为Integer.MAX_VALUE-->
-        <property name="maxPoolSize" value="50"/>
+        <beans:property name="maxPoolSize" value="50"/>
         <!--任务队列容量，当核心线程数达到最大时，新任务会在队列中排队等待执行-->
-        <property name="queueCapacity" value="1000"/>
+        <beans:property name="queueCapacity" value="1000"/>
         <!--线程空闲时间，当线程空闲时间达到keepAliveSeconds时，线程会退出直到线程数==核心线程数，默认60s-->
-        <property name="keepAliveSeconds" value="120"/>
+        <beans:property name="keepAliveSeconds" value="120"/>
         <!--任务拒绝处理器，
             1.当线程数达到maxPoolSize时，且任务队列已满，会拒绝新任务；
             2.当线程池被调用shutdown()后，会等待线程池里的任务执行完毕再shutdown，如果在调用shutdown()和线程池正真shutdown之间提交任务，会拒绝任务。
@@ -58,9 +86,9 @@
             DiscardPolicy 忽视，什么都不会发生
             DiscardOldestPolicy 从队列中踢出最先进入队列（最后一个执行）的任务
             实现RejectedExecutionHandler接口，可自定义处理器-->
-        <property name="rejectedExecutionHandler">
-            <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy"></bean>
-        </property>
-    </bean>
+        <beans:property name="rejectedExecutionHandler">
+            <beans:bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy"></beans:bean>
+        </beans:property>
+    </beans:bean>
 
-</beans>
+</beans:beans>

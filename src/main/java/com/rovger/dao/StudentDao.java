@@ -1,6 +1,6 @@
 package com.rovger.dao;
 
-import com.rovger.mybatis.entity.Student;
+import com.rovger.entity.Student;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -15,7 +15,7 @@ public class StudentDao {
     private SqlSessionTemplate sqlSessionTemplate;
 
     public Student getStudent(int id) {
-        return sqlSessionTemplate.selectOne(this.getClass().getName() + ".getStudent", 1);
+        return sqlSessionTemplate.selectOne(this.getClass().getName() + ".getStudent", id);
     }
 
     public void addStudent(Student student) {

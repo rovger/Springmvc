@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 一定要注意：服务已经加入Zookeeper(port:8080)管理，所以，启动前需要启动Zookeeper为前提。。。
  * Created by weijlu on 2017/3/27.
  */
 @Controller

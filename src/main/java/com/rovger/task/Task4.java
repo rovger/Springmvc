@@ -24,7 +24,7 @@ public class Task4 {
 
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-    @Scheduled(cron = "0 * * * * *")
+    @Scheduled(cron = "0 1 * * * *")
     public void testSchedule() {
         String now = sdf.format(new Date());
 

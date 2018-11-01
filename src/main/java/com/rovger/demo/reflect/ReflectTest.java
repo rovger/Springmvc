@@ -1,6 +1,6 @@
 package com.rovger.demo.reflect;
 
-import com.rovger.mybatis.entity.Student;
+import com.rovger.entity.Student;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -38,7 +38,7 @@ public class ReflectTest {
 		System.out.println(student1.getNickname()+"的年龄："+student1.getAge());
 		//反射实例化
 		try {
-			Class cl1 = ReflectTest.class.getClassLoader().loadClass("com.rovger.mybatis.entity.Student");
+			Class cl1 = ReflectTest.class.getClassLoader().loadClass("com.rovger.entity.Student");
 			Student student2 = (Student) cl1.newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();
