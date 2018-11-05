@@ -13,6 +13,10 @@ import java.io.Serializable;
 	 ) ENGINE=INNODB DEFAULT CHARSET=utf8
  *
  */
+
+/**
+ * Student 由于是Dubbo框架下，且需要被consumer来引用，所以需要实现Serializable接口，否则对象无法写到consumer端
+ */
 public class Student implements Serializable {
 	public Student() {
 	}
