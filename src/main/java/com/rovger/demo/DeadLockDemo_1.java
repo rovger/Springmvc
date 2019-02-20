@@ -9,19 +9,18 @@ public class DeadLockDemo_1 {
     public static void main(String[] args) {
         Object obj1 = new Object();
         Object obj2 = new Object();
-        System.out.println("============= Fail Demo start =============");
-        Thread t1 = new Thread(new MyThread(obj1, obj2, true), "thread1");
-        Thread t2 = new Thread(new MyThread(obj1, obj2, false), "thread2");
+        Thread t1 = new Thread(new DeathLockRunner(obj1, obj2, true), "thread1");
+        Thread t2 = new Thread(new DeathLockRunner(obj1, obj2, false), "thread2");
         t1.start();
         t2.start();
     }
 }
 
-class MyThread implements Runnable {
+class DeathLockRunner implements Runnable {
     boolean flag;
     Object obj1;
     Object obj2;
-    public MyThread(Object obj1, Object obj2, boolean flag) {
+    public DeathLockRunner(Object obj1, Object obj2, boolean flag) {
         this.obj1 = obj1;
         this.obj2 =obj2;
         this.flag = flag;

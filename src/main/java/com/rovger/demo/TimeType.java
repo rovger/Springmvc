@@ -24,10 +24,6 @@ public enum TimeType {
         this.type = type;
     }
 
-    public String getName() {
-        return name();//获取“MINUTELY”这种字符串
-    }
-
     /**
      * name：表示括弧里的说明
      * values：表示MINUTELY, HOURLY...
@@ -39,7 +35,7 @@ public enum TimeType {
     public static TimeType getByName(String name) {
         if (typeMap.size()>0) return typeMap.get(name);
         for (TimeType unit : TimeType.values()) {
-            if (unit.getName().equals(name.toUpperCase())) {
+            if (unit.name().equals(name.toUpperCase())) {
                 return unit;
             }
         }

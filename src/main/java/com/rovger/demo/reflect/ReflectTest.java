@@ -17,6 +17,7 @@ public class ReflectTest {
 		//反射获取单利模式下的类实例
 		try {
 			Class clazz = Class.forName(Singleton.class.getName());
+			System.out.println("path:"+ Singleton.class.getName());
 			Constructor constructor = clazz.getDeclaredConstructor();
 			constructor.setAccessible(true);
 			singleton = (Singleton) constructor.newInstance();
@@ -39,6 +40,8 @@ public class ReflectTest {
 		//反射实例化
 		try {
 			Class cl1 = ReflectTest.class.getClassLoader().loadClass("com.rovger.entity.Student");
+			System.out.println("class:"+ ReflectTest.class);
+			System.out.println("class loader:"+ ReflectTest.class.getClassLoader());
 			Student student2 = (Student) cl1.newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();

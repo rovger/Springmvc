@@ -1,6 +1,7 @@
-package com.rovger.demo.utils;
+package com.rovger.design;
 
 /**
+ * 这里实际上时匿名内部类的应用
  * Created by weijlu on 2017/11/29.
  */
 public class RetryUtil {

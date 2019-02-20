@@ -10,7 +10,20 @@ import java.util.Locale;
  * Created by weijlu on 2017/3/20.
  */
 public class DateFormat {
+
+	public static Date refreshDateConst = new Date();
+	static {
+		try {
+			refreshDateConst = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("1970-01-01 00:00:00");
+		} catch(Exception ex) {
+			//do nothing
+		}
+	}
+
 	public static void main(String args[]) throws ParseException {
+
+		System.out.println("-----"+ refreshDateConst);
+
 		/*String time = "2017-03-20T00:46:23Z";
 		String date_time = "2017-03-20T01:00:37.000Z";
 		try {
@@ -28,9 +41,9 @@ public class DateFormat {
 			System.out.println("当前时间：" + sdf.format(end));
 		}*/
 
-		Calendar cal = Calendar.getInstance();
+		/*Calendar cal = Calendar.getInstance();
 		int weekOfYear = cal.get(Calendar.WEEK_OF_YEAR);
-		System.out.println(weekOfYear);
+		System.out.println(weekOfYear);*/
 
 	}
 
