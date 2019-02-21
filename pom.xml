@@ -8,7 +8,7 @@
   <url>http://maven.apache.org</url>
   <!-- 版本号 -->
   <properties>
-    <spring.version>4.1.5.RELEASE</spring.version>
+    <spring.version>4.3.17.RELEASE</spring.version>
     <aspectj.version>1.6.11</aspectj.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.encoding>UTF-8</java.encoding>
@@ -186,7 +186,7 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.3</version>
     </dependency>
     <dependency>
       <groupId>com.101tec</groupId>

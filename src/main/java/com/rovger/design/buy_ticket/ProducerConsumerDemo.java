@@ -39,7 +39,9 @@ public class ProducerConsumerDemo {
 
         System.out.println("主线程运行结束。。。");
 
-        //使用Callable和Future来创建线程和接收线程参数
+        System.out.println("当前queue包含元素数量_1："+ queue.size());
+
+        //使用Callable和Future来创建线程和接收线程参数，这里多此一举，只为了练习创建线程的第3种方法
         FutureTask<Integer> future = new FutureTask(new Callable<Integer>() {
             @Override
             public Integer call() {
@@ -50,7 +52,7 @@ public class ProducerConsumerDemo {
         thread.start();
         try {
             int queueSize = future.get();
-            System.out.println("当前queue包含元素数量："+ queueSize);
+            System.out.println("当前queue包含元素数量_2："+ queueSize);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
