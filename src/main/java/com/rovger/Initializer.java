@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * Created by weijlu on 2017/4/1.
  */
 public class Initializer {
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(Initializer.class);
 	public static String userName;
 	public static boolean isInitialized = false;
 

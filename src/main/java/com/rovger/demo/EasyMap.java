@@ -4,7 +4,7 @@ package com.rovger.demo;
  * Created by weijlu on 2018/5/3.
  */
 public class EasyMap<K, V> {
-    private static int arraySize = 10;
+    private static int arraySize = 16;
     private EasyEntry[] keys;
 
     public EasyMap() {
@@ -14,13 +14,12 @@ public class EasyMap<K, V> {
     public V put(K key, V value) {
         int hash = getHash(key);
         for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
-            if (entry.getKey().hashCode()==key.hashCode() &&
-                    (entry.getKey()==key || entry.getKey().equals(key))) {
-                V oldVal = entry.getValue();
-                entry.setValue(value);
+            if (entry.key.hashCode()==key.hashCode() &&
+                    (entry.key==key || entry.key.equals(key))) {
+                V oldVal = entry.value;
+                entry.value = value;
                 return oldVal;
             }
-            entry = entry.getNext();
         }
         //add new
         EasyEntry<K, V> newEntry = new EasyEntry<>(key, value, keys[hash]);
@@ -31,9 +30,9 @@ public class EasyMap<K, V> {
     public V get(K key) {
         int hash = getHash(key);
         for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
-            if (entry.getKey().hashCode()==key.hashCode() &&
-                    (entry.getKey() == key || entry.getKey().equals(key))) {
-                return entry == null ? null : entry.getValue();
+            if (entry.key.hashCode()==key.hashCode() &&
+                    (entry.key==key || entry.key.equals(key))) {
+                return entry == null ? null : entry.value;
             }
         }
         return null;
@@ -43,16 +42,16 @@ public class EasyMap<K, V> {
         int hash = getHash(key);
         EasyEntry pre = null;
         for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
-            if (entry.getKey().hashCode()==key.hashCode() &&
-                    (entry.getKey()==key || entry.getKey().equals(key))) {
+            if (entry.key.hashCode()==key.hashCode() &&
+                    (entry.key==key || entry.key.equals(key))) {
                 if (pre == null) {
-                    keys[hash] = entry.getNext();
+                    keys[hash] = entry.next;
                 } else {
-                    pre.setNext(entry.getNext());
+                    pre.next = entry.next;
                 }
             }
             pre = entry;
-            entry = entry.getNext();
+            entry = entry.next;
         }
         return null;
     }
@@ -75,26 +74,6 @@ public class EasyMap<K, V> {
         public EasyEntry(K key, V value, EasyEntry<K, V> next) {
             this.key = key;
             this.value = value;
-            this.next = next;
-        }
-
-        public K getKey() {
-            return key;
-        }
-
-        public V getValue() {
-            return value;
-        }
-
-        public void setValue(V value) {
-            this.value = value;
-        }
-
-        public EasyEntry<K, V> getNext() {
-            return next;
-        }
-
-        public void setNext(EasyEntry<K, V> next) {
             this.next = next;
         }
     }

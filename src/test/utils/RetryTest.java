@@ -1,6 +1,6 @@
 package utils;
 
-import com.rovger.demo.utils.RetryUtil;
+import com.rovger.design.RetryUtil;
 import org.junit.Test;
 
 /**

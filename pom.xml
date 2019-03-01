@@ -177,6 +177,13 @@
       <version>2.5.9</version>
     </dependency>
 
+    <!-- rabbitMQ dependency -->
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>3.6.5</version>
+    </dependency>
+
     <!-- others packages -->
     <dependency>
       <groupId>com.google.code.gson</groupId>
