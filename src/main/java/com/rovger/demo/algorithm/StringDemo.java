@@ -1,4 +1,4 @@
-package com.rovger.demo;
+package com.rovger.demo.algorithm;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +17,15 @@ public class StringDemo {
 	private static char BIG_RIGHT = '}';
 
 	public static void main(String[] args) {
-		String str = "3}+{4*5-(34+7)/2+5*[3-1]}";
-		System.out.println("verified result: "+ verifyStr(str));
+		/*String str = "3}+{4*5-(34+7)/2+5*[3-1]}";
+		System.out.println("verified result: "+ verifyStr(str));*/
+
+		//这里使用hashCode()方法可能会导致bug出现，因为tracking_num.hashCode()可能是一个负值
+		String tracking_num = "TR85406404653483898y87";
+		System.out.println(tracking_num.hashCode());
+		System.out.println(tracking_num.hashCode() % 3);
+
+		System.out.println(-14 % 3);
 	}
 
 	/**

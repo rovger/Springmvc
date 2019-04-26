@@ -1,4 +1,4 @@
-package com.rovger.demo;
+package com.rovger.demo.algorithm;
 
 import java.util.*;
 
@@ -31,6 +31,9 @@ public class MapSort {
     }
 
     private static void loopLinkedHashMap(Map<String, String> linkedMap_sort) {
+        // 找出values中最大的value,从而可以找到key
+        /*Collection<Integer> maxEle = linkedMap_sort.values();
+        int max = Collections.max(maxEle);*/
         Set<Map.Entry<String, String>> set = linkedMap_sort.entrySet();
         for (Iterator<Map.Entry<String, String>> it = set.iterator(); it.hasNext(); ) {
             System.out.println(it.next() + "\t");

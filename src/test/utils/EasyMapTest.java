@@ -1,6 +1,6 @@
 package utils;
 
-import com.rovger.demo.EasyMap;
+import com.rovger.demo.algorithm.EasyMap;
 import org.junit.Test;
 
 /**

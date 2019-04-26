@@ -1,11 +1,11 @@
-package com.rovger.demo;
+package com.rovger.demo.algorithm;
 
 import java.util.*;
 
 /**
  * Created by weijlu on 2017/3/24.
  */
-public class ListRemoveDemo {
+public class ListFormat {
 
 	public static void main(String args[]) {
 		List<String> list = new ArrayList<>();
@@ -13,11 +13,27 @@ public class ListRemoveDemo {
 		list.add("d");list.add("a");list.add("f");
 		list.add("g");list.add("h");list.add("i");
 		System.out.println("====before===="+ list.toString());
+
 		List<Integer> indexs = new ArrayList<>();
 		indexs.add(6);indexs.add(4);indexs.add(12);
-		List<String> listV2 = exclude3(list, indexs);
-		System.out.println("====after===="+ listV2.toString());
+//		List<String> listV2 = exclude3(list, indexs);
 
+		//去除list在eles中已有的元素
+		List<String> eles = new ArrayList<>();
+		eles.add("a");eles.add("c");eles.add("i");
+//		exclude2(list, eles);
+
+		System.out.println("====after===="+ list.toString());
+
+		System.out.println("====remove common===="+ list.toString());
+		List<String> list2 = new ArrayList<>();
+		list2.add("a");list2.add("m");list2.add("n");
+		list2.add("c");list2.add("d");list2.add("r");
+		System.out.println("====list===="+ list.toString());
+		System.out.println("====list2===="+ list2.toString());
+		removeCommon(list, list2);
+		System.out.println("====list===="+ list.toString());
+		System.out.println("====list2===="+ list2.toString());
 
 		/*int counter = 4;
 		List<String> test = new LinkedList<>();
@@ -43,6 +59,27 @@ public class ListRemoveDemo {
 			counter--;
 		}
 		System.out.println("Remove after:"+ test.toString());*/
+	}
+
+	/**
+	 * 去除list和list2中共同的元素
+	 * @param list
+	 * @param list2
+	 */
+	private static void removeCommon(List<String> list, List<String> list2) {
+		Iterator<String> it = list.iterator();
+		/*if (list.size() <= list2.size()) {
+			it = list.iterator();
+		} else {
+			it = list2.iterator();
+		}*/
+		while (it.hasNext()) {
+			String temp = it.next();
+			if (list2.contains(temp)) {
+				it.remove();
+				list2.remove(temp);
+			}
+		}
 	}
 
 	/**
@@ -76,22 +113,19 @@ public class ListRemoveDemo {
 	}
 
 	/**
-	 * 可以保证即使list中有重复数据也可以删除
+	 * list删除通用方法
 	 * @param list
-	 * @param indexs
+	 * @param eles
 	 * @param <T>
 	 * @return
 	 */
-	public static <T> List<T> exclude2(List<T> list, List<Integer> indexs) {
-		List<T> removedList = new ArrayList<>();
-		for (int i=0; i<list.size(); i++) {
-			if (indexs.contains(i)) {
-				continue;
-			} else {
-				removedList.add(list.get(i));
+	public static <T> void exclude2(List<T> list, List<String> eles) {
+		Iterator<T> it = list.iterator();
+		while (it.hasNext()) {
+			if (eles.contains(it.next())) {
+				it.remove();
 			}
 		}
-		return removedList;
 	}
 
 	/**

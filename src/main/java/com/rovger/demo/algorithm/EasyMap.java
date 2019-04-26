@@ -1,19 +1,19 @@
-package com.rovger.demo;
+package com.rovger.demo.algorithm;
 
 /**
  * Created by weijlu on 2018/5/3.
  */
 public class EasyMap<K, V> {
     private static int arraySize = 16;
-    private EasyEntry[] keys;
+    private EasyEntry[] entryArray;
 
     public EasyMap() {
-        keys = new EasyEntry[arraySize];
+        entryArray = new EasyEntry[arraySize];
     }
 
     public V put(K key, V value) {
         int hash = getHash(key);
-        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
+        for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
             if (entry.key.hashCode()==key.hashCode() &&
                     (entry.key==key || entry.key.equals(key))) {
                 V oldVal = entry.value;
@@ -22,14 +22,14 @@ public class EasyMap<K, V> {
             }
         }
         //add new
-        EasyEntry<K, V> newEntry = new EasyEntry<>(key, value, keys[hash]);
-        keys[hash] = newEntry;
+        EasyEntry<K, V> newEntry = new EasyEntry<>(key, value, entryArray[hash]);
+        entryArray[hash] = newEntry;
         return null;
     }
 
     public V get(K key) {
         int hash = getHash(key);
-        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
+        for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
             if (entry.key.hashCode()==key.hashCode() &&
                     (entry.key==key || entry.key.equals(key))) {
                 return entry == null ? null : entry.value;
@@ -41,11 +41,11 @@ public class EasyMap<K, V> {
     public EasyEntry<K, V> remove(K key) {
         int hash = getHash(key);
         EasyEntry pre = null;
-        for (EasyEntry<K, V> entry = keys[hash]; entry != null; entry = entry.next) {
+        for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
             if (entry.key.hashCode()==key.hashCode() &&
                     (entry.key==key || entry.key.equals(key))) {
                 if (pre == null) {
-                    keys[hash] = entry.next;
+                    entryArray[hash] = entry.next;
                 } else {
                     pre.next = entry.next;
                 }

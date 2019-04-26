@@ -1,4 +1,4 @@
-package com.rovger.demo;
+package com.rovger.demo.algorithm;
 
 /**
  * Created by weijlu on 2017/8/8.
@@ -131,10 +131,11 @@ public class InsertionSort {
      */
     private static int searchRecursive(int[] array, int findValue) {
         if (array==null || array.length==0) return -1;
-        int middle, start = 0, end = array.length-1;
+        int start = 0;
+        int end = array.length-1;
         //二分法
         while (start <= end) {
-            middle = (start+end)/2;
+            int middle = (start+end)/2;
             if (array[middle]<findValue) {
                 start = middle+1;
             } else if (array[middle]>findValue) {
