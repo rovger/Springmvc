@@ -12,16 +12,16 @@ import java.util.Date;
  */
 public class Task3 implements Runnable {
 
-	Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
+    Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
 
-	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-	public void run() {
+    public void run() {
 
-		String now = sdf.format(new Date());
+        String now = sdf.format(new Date());
 
-		logger.info("当前任务： " + this.getClass().getSimpleName() + "， 当前用户：" + Initializer.userName
-				+ "， 是否初始化成功：" + Initializer.isInitialized + "， 当前时间：" + now);
+        logger.info("当前任务： " + this.getClass().getSimpleName() + "， 当前用户：" + Initializer.userName
+                + "， 是否初始化成功：" + Initializer.isInitialized + "， 当前时间：" + now);
 
-	}
+    }
 }

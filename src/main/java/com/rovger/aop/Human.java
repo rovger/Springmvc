@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Human implements Sleepable {
-	public String sleep() {
-		return "睡觉中。。。梦中自有颜如玉。";
-	}
+    public String sleep() {
+        return "睡觉中。。。梦中自有颜如玉。";
+    }
 }

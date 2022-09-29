@@ -13,6 +13,7 @@ public class NumberFormat {
      * byte short int long float double boolean char
      * 最大值+1 == 最小值
      * 最小值-1 == 最大值
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -21,13 +22,13 @@ public class NumberFormat {
         //将float转化为int
 //        int num_2 = (int) num_1;
         int num_2 = Float.valueOf(num_1).intValue();
-        System.out.println(num_1 +"==>"+ num_2);
+        System.out.println(num_1 + "==>" + num_2);
 
         System.out.println("=================");
 
         int num_3 = 2;
         float num_4 = 3.6f;
-        int num_5 = (int) (num_3*num_4);
+        int num_5 = (int) (num_3 * num_4);
         System.out.println(num_5);
 
         System.out.println("=================");

@@ -29,10 +29,10 @@ public class Client {
 
         //测试反射获取类实例
         Class clazz = Client.class;
-        System.out.println("clazz.getName():"+ clazz.getName() +", clazz.getSimpleName():"+ clazz.getSimpleName());
+        System.out.println("clazz.getName():" + clazz.getName() + ", clazz.getSimpleName():" + clazz.getSimpleName());
         Client client = (Client) Class.forName(clazz.getName()).newInstance();
 
         Class c = clazz.getClass();
-        System.out.println("c.getName():"+ c.getName());
+        System.out.println("c.getName():" + c.getName());
     }
 }

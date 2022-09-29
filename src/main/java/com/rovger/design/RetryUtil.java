@@ -6,6 +6,7 @@ package com.rovger.design;
  */
 public class RetryUtil {
     private static final String method = "Retry::retry()";
+
     public static <T> T retry(CoreProcess process, int retryNum) throws Exception {
         int retry = 0;
         while (retryNum > retry) {

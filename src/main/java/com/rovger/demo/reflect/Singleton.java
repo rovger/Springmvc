@@ -7,21 +7,22 @@ package com.rovger.demo.reflect;
  */
 public class Singleton {
 
-    private static volatile Singleton instance = null;
+    public static volatile Singleton singleton;
 
-    private Singleton () {
-
-    }
+    /**
+     * 私有构造函数，拒绝外部访问
+     */
+    private Singleton() {}
 
     public static Singleton getInstance() {
-        if (instance == null) {
+        if (singleton == null) {
             synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
+                if (singleton == null) {
+                    singleton = new Singleton();
                 }
             }
         }
-        return instance;
+        return singleton;
     }
 
 }

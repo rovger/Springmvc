@@ -86,6 +86,7 @@ public class EmployeeCache {
 
 class EmployeeRef extends SoftReference<Employee> {
     public String _key;
+
     // 继承SoftReference，使得每一个实例都具有可识别的标识。
     // 并且该标识与其在Map内的key相同。
     public EmployeeRef(Employee em, ReferenceQueue<? super Employee> q) {
@@ -108,7 +109,7 @@ class Employee {
     }
 
     public Employee(String id) {
-        this.id=  id;
+        this.id = id;
         getDataFromInfoCenter();
     }
 

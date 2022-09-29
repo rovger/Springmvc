@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Java8重要特性之Lambda表达式:
- *      Lambda表达式可以理解为一种可传递的匿名函数：它没有名称，但有参数列表、函数主体、返回类型、可能还有一个可以抛出的异常列表
+ * Lambda表达式可以理解为一种可传递的匿名函数：它没有名称，但有参数列表、函数主体、返回类型、可能还有一个可以抛出的异常列表
  */
 public class LambdaExp {
 
@@ -20,11 +20,11 @@ public class LambdaExp {
                 return o1.compareTo(o2);
             }
         });
-        System.out.println("Java7按字母顺序："+ names.toString());
+        System.out.println("Java7按字母顺序：" + names.toString());
 
         //Java8排序写法如下
         Collections.sort(names, (String o1, String o2) -> o2.compareTo(o1));
-        System.out.println("Java8按字母倒序："+ names.toString());
+        System.out.println("Java8按字母倒序：" + names.toString());
 
 
         /**
@@ -46,7 +46,7 @@ public class LambdaExp {
         items.put("E", 50);
         items.put("F", 60);
         items.forEach((k, v) -> {
-            System.out.println("k: "+ k +", v: "+ v);
+            System.out.println("k: " + k + ", v: " + v);
             if ("E".equals(k)) {
                 System.out.println("Hello E");
             }
@@ -75,12 +75,12 @@ public class LambdaExp {
          */
         List<Integer> costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
         costBeforeTax.stream()
-                .map((cost) -> cost + cost*.12)
+                .map((cost) -> cost + cost * .12)
                 .forEach(System.out::println);
 
         double total = costBeforeTax.stream()
                 .reduce((sum, cost) -> sum + cost)
                 .get();
-        System.out.println("Total:"+ total);
+        System.out.println("Total:" + total);
     }
 }

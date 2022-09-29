@@ -17,40 +17,42 @@ import java.util.Map;
  */
 @Controller
 public class HomeController {
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-	Gson gson = new Gson();
+    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+    Gson gson = new Gson();
 
-	//ModelAndView
-	@RequestMapping("/index")
-	public ModelAndView index() {
-		logger.info("The first jsp page.");
-		return new ModelAndView("index");
-	}
+    //ModelAndView
+    @RequestMapping("/index")
+    public ModelAndView index() {
+        logger.info("The first jsp page.");
+        return new ModelAndView("index");
+    }
 
-	//http://localhost:8080/views/home/env?env=prod
-	@RequestMapping(value = "/{env}", method = RequestMethod.GET)
-	public ModelAndView getEnv(@PathVariable(value = "env") String env) {
-		ModelAndView view = new ModelAndView();
- 		ModelMap model = new ModelMap();
-		model.put("currentEnv", env);
-		view.setViewName("index");
-		view.addObject("model", model);
-		return view;
-	}
+    //http://localhost:8080/views/home/env?env=prod
+    @RequestMapping(value = "/{env}", method = RequestMethod.GET)
+    public ModelAndView getEnv(@PathVariable(value = "env") String env) {
+        ModelAndView view = new ModelAndView();
+        ModelMap model = new ModelMap();
+        model.put("currentEnv", env);
+        view.setViewName("index");
+        view.addObject("model", model);
+        return view;
+    }
 
-	//API
-	@RequestMapping(value = "/sayHello/{msg}", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
-	public @ResponseBody String hello2You (@PathVariable("msg") String msg) {
-		logger.info("apis hello2You..." + msg);
-		return "Hello " + msg;
-	}
+    //API
+    @RequestMapping(value = "/sayHello/{msg}", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
+    public @ResponseBody
+    String hello2You(@PathVariable("msg") String msg) {
+        logger.info("apis hello2You..." + msg);
+        return "Hello " + msg;
+    }
 
-	@RequestMapping(value = "/info", produces = "application/json;charset=UTF-8", method = RequestMethod.GET)
-	public @ResponseBody String info () {
-		Map<String, String> map = new HashMap<String, String>();
-		map.put("name","Rovger");
-		map.put("age", "26");
-		return gson.toJson(map);
-	}
+    @RequestMapping(value = "/info", produces = "application/json;charset=UTF-8", method = RequestMethod.GET)
+    public @ResponseBody
+    String info() {
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("name", "Rovger");
+        map.put("age", "26");
+        return gson.toJson(map);
+    }
 
 }

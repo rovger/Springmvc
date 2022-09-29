@@ -39,32 +39,35 @@ public class CollectionsDemo {
         }
         //map before
         for (Map.Entry entry : ageMap.entrySet()) {
-            System.out.println("Map 处理排序前："+ entry.getKey() +":"+ entry.getValue());
+            System.out.println("Map 处理排序前：" + entry.getKey() + ":" + entry.getValue());
         }
         /*for (int i=0; i<studentList.size(); i++) {
             System.out.println("Collections 处理排序前：" + studentList.get(i).toString());
         }*/
         System.out.println("==================分割线=====================");
         //list after
-        Collections.sort(studentList, new Comparator<Student>() {
+        Collections.sort(studentList, Comparator.comparingInt(Student::getAge).reversed());
+        /*Collections.sort(studentList, new Comparator<Student>() {
+            @Override
             public int compare(Student o1, Student o2) {
-                return o1.getAge()-o2.getAge();
+                return o1.getAge() - o2.getAge();
             }
-        });
+        });*/
         //map after
         Set keySet = ageMap.entrySet();
         List<Map.Entry<String, Integer>> entryList = new ArrayList<>(keySet);
-        Collections.sort(entryList, new Comparator<Map.Entry<String, Integer>>() {
+        Collections.sort(entryList, (o1, o2) -> o2.getValue().compareTo(o1.getValue()));
+        /*Collections.sort(entryList, new Comparator<Map.Entry<String, Integer>>() {
             @Override
             public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
                 return o1.getValue().compareTo(o2.getValue());
             }
-        });
-        for (int i=0; i<studentList.size(); i++) {
+        });*/
+        for (int i = 0; i < studentList.size(); i++) {
             System.out.println("List 处理排序后：" + studentList.get(i).toString());
         }
         for (Map.Entry<String, Integer> entry : entryList) {
-            System.out.println("Map 处理排序后：" + entry.getKey() +":"+ entry.getValue());
+            System.out.println("Map 处理排序后：" + entry.getKey() + ":" + entry.getValue());
         }
     }
 

@@ -12,6 +12,7 @@ public class GamePlayHandler implements InvocationHandler {
 
     Class clazz = null;//被代理者
     Object obj = null;//被代理的实例
+
     //我要代理谁
     public GamePlayHandler(Object _obj) {
         this.obj = _obj;

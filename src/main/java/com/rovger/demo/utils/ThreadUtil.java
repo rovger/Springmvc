@@ -45,5 +45,5 @@ public abstract class ThreadUtil {
         return resp;
     }
 
-    protected abstract <X,T> List<X> getObject(List<T> list, Class<X> x, Object... others);
+    protected abstract <X, T> List<X> getObject(List<T> list, Class<X> x, Object... others);
 }

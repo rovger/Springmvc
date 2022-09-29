@@ -16,8 +16,7 @@ public enum TimeType {
     HOURLY("HOUR"),
     DAILY("DAY"),
     WEEKLY("WEEK"),
-    MONTHLY("MONTH")
-    ;
+    MONTHLY("MONTH");
     private String type;
 
     TimeType(String type) {
@@ -32,8 +31,9 @@ public enum TimeType {
      * @return
      */
     private static Map<String, TimeType> typeMap = new HashMap<String, TimeType>();
+
     public static TimeType getByName(String name) {
-        if (typeMap.size()>0) return typeMap.get(name);
+        if (typeMap.size() > 0) return typeMap.get(name);
         for (TimeType unit : TimeType.values()) {
             if (unit.name().equals(name.toUpperCase())) {
                 return unit;

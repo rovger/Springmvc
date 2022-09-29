@@ -1,46 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb74f41-4678-49dd-b3b2-049b80d2b0d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/InsertionSort.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/utils/Randomdemo.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/Initializer.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/Initializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/aop/Human.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/aop/Human.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/aop/SleepHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/aop/SleepHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/aop/Sleepable.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/aop/Sleepable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/dao/IBaseDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/dao/IBaseDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/dao/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/demo/reflect/ReflectTest.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/demo/reflect/ReflectTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/demo/utils/BigDecimalDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/demo/utils/BigDecimalDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/demo/utils/TimeType.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/demo/utils/TimeType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/entity/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/entity/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/entity/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/entity/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/reources/HelloWorldService.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/reources/HelloWorldService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/task/SpringTaskManager.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/task/SpringTaskManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task1.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task2.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task3.class" afterPath="$PROJECT_DIR$/target/classes/com/rovger/task/work/Task3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/aop/AOPTest.class" afterPath="$PROJECT_DIR$/target/test-classes/aop/AOPTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mongo/MongoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/mongo/MongoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/utils/EnumTest.class" afterPath="$PROJECT_DIR$/target/test-classes/utils/EnumTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springmvc.iml" afterPath="$PROJECT_DIR$/springmvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/DateFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/DateFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/MathRoundDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/MathRoundDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/StringDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/StringDemo.java" />
+      <change afterPath="$PROJECT_DIR$/C:/git/spring/MySpring/src/main/webapp/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dest/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dest/input_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ArrayCalculus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/AwareDamo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CoreJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DateFormatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/Export_xls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/LocalDateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/StaticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TestStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TryCatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/PrimeEncrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/SigDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/CpuUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/StackOverflowErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtilV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/JinzhiConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/NetworkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/http/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/FileReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/task" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinaryTree_diedai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinaryTree_digui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LinkedCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LinkedReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/NumberReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/StrinReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Valid_KuoHao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/CaffeineCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/FutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/GuavaAbstractCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/PayfacadeRetryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/SafePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/SynchronizedObjectLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/IPWhitelistCheckUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prepare_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_spring_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/SleepHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/SleepHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Sleepable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Sleepable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/IGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/IGamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/AliveLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/AliveLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ChainTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ChainTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DateFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DeadLockDemo_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/DeadLockDemo_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DeadLockSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/DeadLockSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/EmployeeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/EmployeeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/MathRoundDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/MathRoundDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/OOMDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/OOMDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TimeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/EasyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Erfenfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Erfenfa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ListFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ListFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/MapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/MapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/NumberFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/NumberFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Qsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Qsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/StringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TicketTread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TicketTread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/InnerClassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/design/InnerClassImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/RetryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/design/RetryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/ProducerConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/ProducerConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/ProducerConsumerDemo_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/ProducerConsumerDemo_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/TicketProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/TicketProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/java8/LambdaExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/LambdaExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/rabbitMQ/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/rabbitMQ/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/SpringTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/SpringTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task3.java" afterDir="false" />
     </list>
-    <ignored path="MySpring.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/../MySpringboot/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,96 +148,8 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="MySpring" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TimeType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TimeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="37" column="83" lean-forward="false" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="83" />
-              <folding>
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="80" column="60" lean-forward="true" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathRoundDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/MathRoundDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/StringDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvc-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mvc-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="58" column="76" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jersey-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jersey-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -309,7 +311,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -744,143 +746,7 @@
       <recent name="C:\git\spring\MySpring\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.DateStructures">
-    <configuration default="false" name="DateStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="utils.DateStructures" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springmvc" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.InsertionSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springmvc" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="EnumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springmvc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.EnumTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.StringDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springmvc" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MathRoundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.MathRoundDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springmvc" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -904,6 +770,30 @@
         <option name="GAPID_DISABLE_PCS" value="false" />
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -942,21 +832,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -1089,22 +964,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -1112,48 +971,6 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -1172,93 +989,21 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MySpring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1282,6 +1027,113 @@
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
+    </configuration>
+    <configuration name="DateStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.DateStructures" />
+      <module name="springmvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.InsertionSort" />
+      <module name="springmvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathRoundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.MathRoundDemo" />
+      <module name="springmvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.StringDemo" />
+      <module name="springmvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.EnumTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MySpring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="false" name="MySpring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
@@ -1358,55 +1210,31 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.MySpring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DateStructures" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EnumTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.MathRoundDemo" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateStructures" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.StringDemo" />
+      <item itemvalue="Application.MathRoundDemo" />
+      <item itemvalue="JUnit.EnumTest.test" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DateStructures" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MathRoundDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringDemo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EnumTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
+      <list>
+        <item itemvalue="Application.DateStructures" />
+        <item itemvalue="Application.MathRoundDemo" />
+        <item itemvalue="Application.StringDemo" />
+        <item itemvalue="JUnit.EnumTest.test" />
+        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1577,26 +1405,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1605,15 +1419,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="34" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

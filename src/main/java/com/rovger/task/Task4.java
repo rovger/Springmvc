@@ -12,9 +12,8 @@ import java.util.Date;
 
 /**
  * Created by weijlu on 2018/7/26.
- *
+ * <p>
  * 定时任务的另一种实现方式，与Task1,2,3激活job方式不同，不需要额外实现Runnable接口。但是都可以实现定时任务
- *
  */
 @Component("task4")
 @EnableScheduling

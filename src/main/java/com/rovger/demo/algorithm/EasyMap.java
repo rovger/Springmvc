@@ -14,8 +14,8 @@ public class EasyMap<K, V> {
     public V put(K key, V value) {
         int hash = getHash(key);
         for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
-            if (entry.key.hashCode()==key.hashCode() &&
-                    (entry.key==key || entry.key.equals(key))) {
+            if (entry.key.hashCode() == key.hashCode() &&
+                    (entry.key == key || entry.key.equals(key))) {
                 V oldVal = entry.value;
                 entry.value = value;
                 return oldVal;
@@ -30,8 +30,8 @@ public class EasyMap<K, V> {
     public V get(K key) {
         int hash = getHash(key);
         for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
-            if (entry.key.hashCode()==key.hashCode() &&
-                    (entry.key==key || entry.key.equals(key))) {
+            if (entry.key.hashCode() == key.hashCode() &&
+                    (entry.key == key || entry.key.equals(key))) {
                 return entry == null ? null : entry.value;
             }
         }
@@ -42,8 +42,8 @@ public class EasyMap<K, V> {
         int hash = getHash(key);
         EasyEntry pre = null;
         for (EasyEntry<K, V> entry = entryArray[hash]; entry != null; entry = entry.next) {
-            if (entry.key.hashCode()==key.hashCode() &&
-                    (entry.key==key || entry.key.equals(key))) {
+            if (entry.key.hashCode() == key.hashCode() &&
+                    (entry.key == key || entry.key.equals(key))) {
                 if (pre == null) {
                     entryArray[hash] = entry.next;
                 } else {
@@ -58,11 +58,12 @@ public class EasyMap<K, V> {
 
     private int getHash(K key) {
         int hash = key.hashCode();
-        return  hash % arraySize;
+        return hash % arraySize;
     }
 
     /**
      * 静态内部类
+     *
      * @param <K>
      * @param <V>
      */

@@ -1,0 +1,5 @@
+Hi exception,
+	 Exception in thread "main" java.io.IOException: Stream closed 
+	 at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:26) 
+	 at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:99)
+Ending.......

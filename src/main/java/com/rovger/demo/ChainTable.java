@@ -99,4 +99,8 @@ public class ChainTable<K, V> {
             this.next = next;
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println(10024 == 10024);
+    }
 }

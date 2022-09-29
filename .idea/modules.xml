@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/discovery/discovery.iml" filepath="$PROJECT_DIR$/../springcloud/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/gateway/gateway.iml" filepath="$PROJECT_DIR$/../springcloud/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/module1/module1.iml" filepath="$PROJECT_DIR$/../springcloud/module1/module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/module2/module2.iml" filepath="$PROJECT_DIR$/../springcloud/module2/module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot/springboot.iml" filepath="$PROJECT_DIR$/../springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/springcloud.iml" filepath="$PROJECT_DIR$/../springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc.iml" filepath="$PROJECT_DIR$/springmvc.iml" />
     </modules>
   </component>

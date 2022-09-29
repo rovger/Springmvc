@@ -20,17 +20,14 @@ public class InnerClassImpl {
     }
 
     public static void main(String[] args) {
-        List<String> list = InnerClassImpl.query("weijlu", 10, new Counter<String>() {
-            @Override
-            public List<String> count(String name, int number) {
-                List<String> list = new ArrayList<>();
-                for ( ;number>=0; number--) {
-                    list.add(name + " , 减数: " + number);
-                }
-                return list;
+        List<String> list = InnerClassImpl.query("weijlu", 10, (name, number) -> {
+            List<String> list1 = new ArrayList<>();
+            for (; number >= 0; number--) {
+                list1.add(name + " , 减数: " + number);
             }
+            return list1;
         });
-        for (int i = 0; i<list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
     }

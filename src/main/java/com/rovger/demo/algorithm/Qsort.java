@@ -1,7 +1,7 @@
 package com.rovger.demo.algorithm;
 
 /**
- * @Description: 快速排序,优势：每次循环可以决定一个元素的位置，即基准值的位置
+ * @Description: 快速排序, 优势：每次循环可以决定一个元素的位置，即基准值的位置
  * @Author weijlu
  * @Date 2019/4/17 9:47
  */
@@ -9,18 +9,19 @@ public class Qsort {
 
     public static void main(String[] args) {
         int[] array = {3, 5, 7, 2, 6, 1, 3, 8, 4};
-        for (int i=0; i<array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + ", ");
         }
         System.out.println();
-        qSort(array, 0, array.length-1);
-        for (int i=0; i<array.length; i++) {
+        qSort(array, 0, array.length - 1);
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + ", ");
         }
     }
 
     /**
      * 先找一个基准值，默认我们使用: key = array[0]，这里就是：3
+     *
      * @param array
      */
     private static void qSort(int[] array, int left, int right) {

@@ -3,7 +3,7 @@ package com.rovger.demo.algorithm;
 import java.util.*;
 
 /**
- * @Description: Map<String, Integer>双列集合的排序方法:
+ * @Description: Map<String ,   Integer>双列集合的排序方法:
  * 按key排序
  * 按value排序
  * @Author weijlu
@@ -40,19 +40,16 @@ public class MapSort {
         }
     }
 
-    private static void sortByKeyOrValue(Map<String,Integer> map) {
+    private static void sortByKeyOrValue(Map<String, Integer> map) {
         List<Map.Entry<String, Integer>> mapList = new ArrayList<>();
         mapList.addAll(map.entrySet());
-        Collections.sort(mapList, new Comparator<Map.Entry<String, Integer>>() {
-            @Override
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+        Collections.sort(mapList, (o1, o2) -> {
 //                return o2.getValue() - o1.getValue();
-                return o1.getKey().compareTo(o2.getKey());
-            }
+            return o1.getKey().compareTo(o2.getKey());
         });
         for (Iterator<Map.Entry<String, Integer>> it = mapList.iterator(); it.hasNext(); ) {
             Map.Entry<String, Integer> entry = it.next();
-            System.out.println(entry.getKey()+":"+entry.getValue());
+            System.out.println(entry.getKey() + ":" + entry.getValue());
         }
     }
 }

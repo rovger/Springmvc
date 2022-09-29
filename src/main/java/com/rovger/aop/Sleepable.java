@@ -6,5 +6,5 @@ package com.rovger.aop;
  * <aop:aspectj-autoproxy proxy-target-class=false/>,该属性默认false，表示使用jdk动态创建代理，织入切面；为true时，表示使用cglib创建代理。
  */
 public interface Sleepable {
-	String sleep();
+    String sleep();
 }

@@ -8,7 +8,7 @@ package com.rovger.demo.algorithm;
 public class Erfenfa {
 
     public static void main(String[] args) {
-        int[][] doubleArray = {{1,2,3}, {4,5,6}, {7,8,9}, {10,11,12}, {13,14,15}};
+        int[][] doubleArray = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}, {13, 14, 15}};
         int[] sorted = {1, 2, 3, 3, 4, 5, 5, 6, 6};
         int firstLargeKey = firstLargeKey(sorted, 3);
         int indexOfKey = indexOfKey(sorted, 4);
@@ -22,33 +22,34 @@ public class Erfenfa {
 
     /**
      * 二分法查找指定元素在二维数组中的坐标
+     *
      * @param array
      * @param key
      * @return
      */
     private static String indexOfDoubleArray(int[][] array, int key) {
         int rows = array.length, cols = array[0].length;
-        int rowup = 0, rowdown = rows-1;
+        int rowup = 0, rowdown = rows - 1;
         while (rowup < rowdown) {
-            int mid = (rowup+rowdown)/2;
+            int mid = (rowup + rowdown) / 2;
             if (array[mid][0] > key) {
                 rowdown = mid - 1;
             } else if (array[mid][0] < key) {
                 rowup = mid + 1;
             } else {
-                return "("+ mid +", 0)";
+                return "(" + mid + ", 0)";
             }
         }
         //对可能存在的行进行遍历
-        int left = 0, right = cols-1;
+        int left = 0, right = cols - 1;
         while (left <= right) {
-            int mid = (left+right)/2;
+            int mid = (left + right) / 2;
             if (array[rowdown][mid] < key) {
                 left = mid + 1;
             } else if (array[rowdown][mid] > key) {
                 right = mid - 1;
             } else {
-                return "("+ rowdown +", "+ mid +")";
+                return "(" + rowdown + ", " + mid + ")";
             }
         }
 
@@ -59,7 +60,7 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] >= key) {
                 right = mid - 1;
             } else {
@@ -73,7 +74,7 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] >= key) {
                 right = mid - 1;
             } else {
@@ -87,7 +88,7 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] <= key) {
                 left = mid + 1;
             } else {
@@ -104,10 +105,11 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] >= key) {
                 right = mid - 1;
-            } if (array[mid] < key) {
+            }
+            if (array[mid] < key) {
                 left = mid + 1;
             }
         }
@@ -121,7 +123,7 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] == key) {
                 return mid;
             } else if (array[mid] < key) {
@@ -137,7 +139,7 @@ public class Erfenfa {
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = (left + right) / 2;
             if (array[mid] > key) {
                 right = mid - 1;
             } else {

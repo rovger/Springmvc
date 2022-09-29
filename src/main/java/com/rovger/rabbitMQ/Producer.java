@@ -36,7 +36,7 @@ public class Producer {
             //声明一个队列：p1:队列名称 p2:是否持久化(true，队列将在服务器重启时生存) p3:是否时独占队列 p4:当消费者客户端连接断开时是否自动删除队列  p5:队列其他参数
             channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
-            for (int i=0; i<5; i++) {
+            for (int i = 0; i < 5; i++) {
                 String message = "Hello RabbitMQ_" + i;
                 //发送消息到滴队列：p1:交换机名称  p2:队列映射的路由key  p3:消息的其他属性  p4:发送的信息主体
                 channel.basicPublish("", QUEUE_NAME, null, message.getBytes("UTF-8"));
