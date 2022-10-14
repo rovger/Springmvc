@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @Description: 动态代理类
+ * @Description: JDK动态代理类: 利用拦截器（必须实现InvocationHandler）加上反射机制生成一个代理接口的匿名类，在调用具体方法前调用。InvokeHandler来处理。
  * @Author weijlu
  * @Date 2018/8/1 16:27
  */

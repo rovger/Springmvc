@@ -15,6 +15,7 @@ public class CountDownLatchDemo {
             new Thread(new CountDownLatchRunnable(i, latch)).start();
         }
         latch.await();//调用await()方法的线程会被挂起，它会等待直到count值为0才继续执行
+        // 有个问题 main线程提前结束
         System.out.println("线程执行结束...");
     }
 

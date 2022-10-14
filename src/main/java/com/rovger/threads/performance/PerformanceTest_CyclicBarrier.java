@@ -50,9 +50,6 @@ public class PerformanceTest_CyclicBarrier {
                 TimeUnit.SECONDS.sleep(new Random().nextInt(3));
                 System.out.println(Thread.currentThread().getName() + "已创建，等待执行...");
 
-                // start计数减减
-                start.countDown();
-
                 doWork();
             } catch (InterruptedException | BrokenBarrierException e) {
                 e.printStackTrace();
@@ -60,6 +57,9 @@ public class PerformanceTest_CyclicBarrier {
         }
 
         private void doWork() throws InterruptedException, BrokenBarrierException {
+            // start计数减减
+            start.countDown();
+
             TimeUnit.SECONDS.sleep(new Random().nextInt(10));
             System.out.println(Thread.currentThread().getName() + "执行完成！");
 

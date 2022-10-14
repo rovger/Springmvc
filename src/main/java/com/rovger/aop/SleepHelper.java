@@ -12,10 +12,9 @@ import org.slf4j.LoggerFactory;
 @Aspect
 public class SleepHelper {
 
-    Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
+    Logger logger = LoggerFactory.getLogger(SleepHelper.class);
 
-    public SleepHelper() {
-    }
+    public SleepHelper() {}
 
     /**
      * 切点

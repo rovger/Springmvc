@@ -1,140 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb74f41-4678-49dd-b3b2-049b80d2b0d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/C:/git/spring/MySpring/src/main/webapp/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dest/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dest/input_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ArrayCalculus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/AwareDamo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CoreJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/Export_xls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/LocalDateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/StaticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TestStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TryCatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/PrimeEncrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/SigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/CpuUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/StackOverflowErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtilV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/JinzhiConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/NetworkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/http/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/FileReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinaryTree_diedai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/BinaryTree_digui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LinkedCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LinkedReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/NumberReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/StrinReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/Valid_KuoHao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/CaffeineCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/FutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/GuavaAbstractCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/PayfacadeRetryUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/SafePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/SynchronizedObjectLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CyclicBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/IPWhitelistCheckUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prepare_order.html" afterDir="false" />
+    <list default="true" id="ceb74f41-4678-49dd-b3b2-049b80d2b0d3" name="Default" comment="update.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_agent_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_evaluator_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_model_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_schema_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lionsoul_ip2region_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_npm_guid_0_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dir/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/ValidFileUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/ArrayCopyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_spring_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/discovery/target/classes/com/rovger/Discovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/discovery/target/classes/com/rovger/Discovery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/gateway/target/classes/com/rovger/Gateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/gateway/target/classes/com/rovger/Gateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/module1/target/classes/com/rovger/Application_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/module1/target/classes/com/rovger/Application_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/module2/target/classes/com/rovger/Application_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/module2/target/classes/com/rovger/Application_2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/git/spring/MySpring/src/main/webapp/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/C:/git/spring/MySpring/src/main/webapp/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/Initializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/SleepHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/SleepHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Sleepable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/Sleepable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/JDKProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/GamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/IGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/aop/dynamic_proxy/IGamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/AliveLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/AliveLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ChainTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ChainTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DateFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DeadLockDemo_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/DeadLockDemo_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DeadLockSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/DeadLockSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/EmployeeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/EmployeeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/MathRoundDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/MathRoundDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/OOMDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/OOMDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TimeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ArrayFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/EasyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Erfenfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Erfenfa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ListFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ListFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/MapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/MapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/NumberFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/NumberFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Qsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Qsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/StringDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TicketTread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TicketTread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/InnerClassImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/design/InnerClassImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/RetryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/design/RetryUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/ProducerConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/ProducerConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/ProducerConsumerDemo_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/ProducerConsumerDemo_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/design/buy_ticket/TicketProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/buy_ticket/TicketProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/java8/LambdaExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/LambdaExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/rabbitMQ/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/rabbitMQ/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ArrayCalculus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/ArrayCalculus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/AwareDamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/AwareDamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/BigDecimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/BigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/BigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/ChainTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/ChainTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/CollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/CoreJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/CoreJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/DateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/DateFormatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/EmployeeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/EmployeeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/Export_xls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/Export_xls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/FileOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/LocalDateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/LocalDateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/MathRoundDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/MathRoundDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/PayfacadeRetryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/PayfacadeRetryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/StaticDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TestStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/TimeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/TryCatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/TryCatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/ArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/EasyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Erfenfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/Erfenfa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/ListFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/ListFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/MapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/MapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/NumberFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/NumberFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/PrimeEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/PrimeEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/Qsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/Qsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/algorithm/SigDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/SigDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/CpuUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/jvm/CpuUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/OOMDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/jvm/OOMDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/jvm/StackOverflowErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/jvm/StackOverflowErrorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/reflect/ReflectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/reflect/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/reflect/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/CrypterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/CrypterUtilV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/CrypterUtilV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/JinzhiConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/JinzhiConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/NetworkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/NetworkUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/ThreadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/demo/utils/TicketTread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/utils/TicketTread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/io/FileReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/io/FileReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/java8/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/java8/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/SpringTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/SpringTaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/task/work/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CyclicBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rovger/threads/performance/PerformanceTest_CyclicBarrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/threadpools/ThreadPoolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/threadpools/ThreadPoolsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/utils/EasyMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/utils/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/utils/EnumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -280,12 +500,16 @@
       </PATH>
     </treeState>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1912" />
     <option name="y" value="-128" />
     <option name="width" value="1936" />
     <option name="height" value="1216" />
   </component>
+  <component name="ProjectId" id="2FQpWNDuLCLa2tI6Wukfny9mInU" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -720,14 +944,24 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web/EasyInsightFramework/einsight/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41149426" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -737,16 +971,17 @@
       <recent name="C:\git\spring\MySpring\src\main\webapp\WEB-INF\statics\js" />
       <recent name="C:\git\spring\MySpring\src\main\webapp\WEB-INF\spring" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.rovger.task.work" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/rovger/io" />
       <recent name="C:\git\spring\MySpring\src\main\webapp" />
       <recent name="C:\git\spring\MySpring\src\main\resources" />
       <recent name="C:\git\spring\MySpring\src\main\webapp\WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rovger.task.work" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DateStructures">
+  <component name="RunManager" selected="Application.ArrayCopyTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -1028,13 +1263,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="DateStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.DateStructures" />
+    <configuration name="ArrayCopyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.leetcode.algorithm.ArrayCopyTest" />
       <module name="springmvc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="com.rovger.leetcode.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1042,13 +1277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.InsertionSort" />
+    <configuration name="EasyMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.leetcode.EasyMap" />
       <module name="springmvc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="PATTERN" value="com.rovger.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1056,13 +1291,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathRoundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.MathRoundDemo" />
+    <configuration name="IPWhitelistCheckUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.utils.IPWhitelistCheckUtil" />
       <module name="springmvc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="PATTERN" value="com.rovger.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1070,13 +1305,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rovger.demo.utils.StringDemo" />
+    <configuration name="MapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.algorithm.MapSort" />
       <module name="springmvc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rovger.demo.utils.*" />
+          <option name="PATTERN" value="com.rovger.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidFileUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rovger.io.ValidFileUpdate" />
+      <module name="springmvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rovger.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1086,23 +1335,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springmvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.EnumTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1220,22 +1452,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateStructures" />
-      <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.StringDemo" />
-      <item itemvalue="Application.MathRoundDemo" />
-      <item itemvalue="JUnit.EnumTest.test" />
+      <item itemvalue="Application.MapSort" />
+      <item itemvalue="Application.IPWhitelistCheckUtil" />
+      <item itemvalue="Application.ValidFileUpdate" />
+      <item itemvalue="Application.EasyMap" />
+      <item itemvalue="Application.ArrayCopyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateStructures" />
-        <item itemvalue="Application.MathRoundDemo" />
-        <item itemvalue="Application.StringDemo" />
-        <item itemvalue="JUnit.EnumTest.test" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.ArrayCopyTest" />
+        <item itemvalue="Application.EasyMap" />
+        <item itemvalue="Application.ValidFileUpdate" />
+        <item itemvalue="Application.IPWhitelistCheckUtil" />
+        <item itemvalue="Application.MapSort" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ceb74f41-4678-49dd-b3b2-049b80d2b0d3" name="Default" comment="" />
@@ -1310,6 +1543,14 @@
       <workItem from="1508896246739" duration="7497000" />
       <workItem from="1509588060883" duration="2041000" />
     </task>
+    <task id="LOCAL-00001" summary="easy case.">
+      <created>1664416010558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664416010558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1400,6 +1641,225 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:jul-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon-loadbalancer" />
+    <option featureType="dependencySupport" implementationName="java:com.github.ben-manes.caffeine:caffeine" />
+    <option featureType="dependencySupport" implementationName="java:com.zaxxer:HikariCP" />
+    <option featureType="dependencySupport" implementationName="java:javax.activation:javax.activation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:accessors-smart" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.javax.persistence:hibernate-jpa-2.1-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.amqp:spring-amqp" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-test" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.datatype:jackson-datatype-jsr310" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:javax.ws.rs:jsr311-api" />
+    <option featureType="dependencySupport" implementationName="java:org.skyscreamer:jsonassert" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter-netflix-archaius" />
+    <option featureType="dependencySupport" implementationName="java:commons-lang:commons-lang" />
+    <option featureType="dependencySupport" implementationName="java:org.freemarker:freemarker" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-web" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-logging" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-databind" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jettison:jettison" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.logging:jboss-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.retry:spring-retry" />
+    <option featureType="dependencySupport" implementationName="java:antlr:antlr" />
+    <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
+    <option featureType="dependencySupport" implementationName="java:org.mybatis:mybatis" />
+    <option featureType="dependencySupport" implementationName="java:commons-configuration:commons-configuration" />
+    <option featureType="dependencySupport" implementationName="java:org.mybatis:mybatis-spring" />
+    <option featureType="dependencySupport" implementationName="java:org.jpmml:pmml-evaluator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-json" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.eureka:eureka-core" />
+    <option featureType="dependencySupport" implementationName="java:org.reactivestreams:reactive-streams" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-actuator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter-netflix-zuul" />
+    <option featureType="dependencySupport" implementationName="java:org.latencyutils:LatencyUtils" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpclient" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-afterburner" />
+    <option featureType="dependencySupport" implementationName="java:mysql:mysql-connector-java" />
+    <option featureType="dependencySupport" implementationName="java:com.vaadin.external.google:android-json" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:org.mockito:mockito-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
+    <option featureType="dependencySupport" implementationName="java:javax.inject:javax.inject" />
+    <option featureType="dependencySupport" implementationName="java:commons-codec:commons-codec" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy-agent" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.netflix-commons:netflix-eventbus" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-resolver" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss:jandex" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-zuul" />
+    <option featureType="dependencySupport" implementationName="java:org.jpmml:pmml-agent" />
+    <option featureType="dependencySupport" implementationName="java:com.jayway.jsonpath:json-path" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.common:hibernate-commons-annotations" />
+    <option featureType="dependencySupport" implementationName="java:stax:stax-api" />
+    <option featureType="dependencySupport" implementationName="java:org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-ribbon" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:org.aspectj:aspectjrt" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-buffer" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-math" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-amqp" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.hystrix:hystrix-javanica" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.netty:netty" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-tomcat" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-test" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter-netflix-eureka-server" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-core" />
+    <option featureType="dependencySupport" implementationName="java:com.rovger.spring:springmvc" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex:rxnetty-contexts" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:jcl-over-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon-eureka" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex:rxjava-reactive-streams" />
+    <option featureType="dependencySupport" implementationName="java:jline:jline" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.zuul:zuul-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-context" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aop" />
+    <option featureType="dependencySupport" implementationName="java:com.rabbitmq:amqp-client" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:json-smart" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.netflix-commons:netflix-infix" />
+    <option featureType="dependencySupport" implementationName="java:javax.annotation:javax.annotation-api" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.stream:stax-api" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-web" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-el" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:javax.servlet-api" />
+    <option featureType="dependencySupport" implementationName="java:log4j:log4j" />
+    <option featureType="dependencySupport" implementationName="java:com.github.andrewoma.dexx:dexx-collections" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-server" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.hystrix:hystrix-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.eureka:eureka-client" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-actuator-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.aspectj:aspectjweaver" />
+    <option featureType="dependencySupport" implementationName="java:org.jpmml:pmml-model" />
+    <option featureType="dependencySupport" implementationName="java:xpp3:xpp3_min" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-unix-common" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml:classmate" />
+    <option featureType="dependencySupport" implementationName="java:commons-io:commons-io" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-websocket" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-library" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-classic" />
+    <option featureType="dependencySupport" implementationName="java:com.alibaba:druid" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter-netflix-hystrix" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-eureka-server" />
+    <option featureType="dependencySupport" implementationName="java:taglibs:standard" />
+    <option featureType="dependencySupport" implementationName="java:org.objenesis:objenesis" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-tx" />
+    <option featureType="dependencySupport" implementationName="java:commons-fileupload:commons-fileupload" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-rsa" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-mongodb" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jcl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-aop" />
+    <option featureType="dependencySupport" implementationName="java:org.bouncycastle:bcprov-jdk15on" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-lang3" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.jpmml:pmml-schema" />
+    <option featureType="dependencySupport" implementationName="java:commons-collections:commons-collections" />
+    <option featureType="dependencySupport" implementationName="java:org.ow2.asm:asm" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-freemarker" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-commons" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-archaius" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.zookeeper:zookeeper" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-test-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter-netflix-ribbon" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-math3" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-expression" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.datatype:jackson-datatype-jdk8" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.dataformat:jackson-dataformat-xml" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex:rxnetty-servo" />
+    <option featureType="dependencySupport" implementationName="java:dom4j:dom4j" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet.jsp:jsp-api" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.woodstox:stax2-api" />
+    <option featureType="dependencySupport" implementationName="java:org.assertj:assertj-core" />
+    <option featureType="dependencySupport" implementationName="java:org.antlr:stringtemplate" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-parameter-names" />
+    <option featureType="dependencySupport" implementationName="java:org.webjars.npm:guid" />
+    <option featureType="dependencySupport" implementationName="java:javax.transaction:javax.transaction-api" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.netflix-commons:netflix-statistics" />
+    <option featureType="dependencySupport" implementationName="java:org.hdrhistogram:HdrHistogram" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.xmlunit:xmlunit-core" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-epoll" />
+    <option featureType="dependencySupport" implementationName="java:org.openjfx:javafx.base" />
+    <option featureType="dependencySupport" implementationName="java:org.antlr:antlr-runtime" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-client" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aspects" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.amqp:spring-rabbit" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.hystrix:hystrix-metrics-event-stream" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-test" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon-httpclient" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-beans" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon-transport" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-codec-http" />
+    <option featureType="dependencySupport" implementationName="java:org.mongodb:mongo-java-driver" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.hystrix:hystrix-serialization" />
+    <option featureType="dependencySupport" implementationName="java:joda-time:joda-time" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-starter" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-actuator" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:jstl" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-common" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-jaxb-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.101tec:zkclient" />
+    <option featureType="dependencySupport" implementationName="java:commons-logging:commons-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-eureka-client" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey.contribs:jersey-apache-client4" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-codec" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.bind:jaxb-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-crypto" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex:rxnetty" />
+    <option featureType="dependencySupport" implementationName="java:xmlpull:xmlpull" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-servlet" />
+    <option featureType="dependencySupport" implementationName="java:org.lionsoul:ip2region" />
+    <option featureType="dependencySupport" implementationName="java:aopalliance:aopalliance" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-netflix-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-orm" />
+    <option featureType="dependencySupport" implementationName="java:com.alibaba:dubbo" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-context-support" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.archaius:archaius-core" />
+    <option featureType="dependencySupport" implementationName="java:com.github.vlsi.compactmap:compactmap" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.findbugs:jsr305" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.woodstox:woodstox-core-asl" />
+    <option featureType="dependencySupport" implementationName="java:com.thoughtworks.xstream:xstream" />
+    <option featureType="dependencySupport" implementationName="java:commons-jxpath:commons-jxpath" />
+    <option featureType="dependencySupport" implementationName="java:io.micrometer:micrometer-core" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.servo:servo-core" />
+    <option featureType="dependencySupport" implementationName="java:org.mybatis.spring.boot:mybatis-spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.woodstox:woodstox-core" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-log4j12" />
+    <option featureType="dependencySupport" implementationName="java:c3p0:c3p0" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.netflix-commons:netflix-commons-util" />
+    <option featureType="dependencySupport" implementationName="java:org.bouncycastle:bcpkix-jdk15on" />
+    <option featureType="dependencySupport" implementationName="java:com.netflix.ribbon:ribbon-core" />
+    <option featureType="dependencySupport" implementationName="java:org.openjdk.jol:jol-core" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1419,6 +1879,23 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="easy case." />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rovger/leetcode/algorithm/ArrayCopyTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
