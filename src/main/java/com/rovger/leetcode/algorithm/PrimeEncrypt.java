@@ -15,7 +15,7 @@ import java.util.Random;
  * 因数：指整数a除以整数b(b != 0)的商正好是整数而没有余数，我们称b是a的因数
  * <p>
  * 34不是质数，因为2*17=34
- * 47是质数
+ * 37、41、43是质数
  * @author: weijie.lu
  * @version: 1.0.0
  * @createTime: 2022年08月18日 09:47

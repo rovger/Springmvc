@@ -33,13 +33,11 @@ public enum TimeType {
     private static Map<String, TimeType> typeMap = new HashMap<String, TimeType>();
 
     public static TimeType getByName(String name) {
-        if (typeMap.size() > 0) return typeMap.get(name);
+        if (!typeMap.isEmpty()) return typeMap.get(name);
         for (TimeType unit : TimeType.values()) {
-            if (unit.name().equals(name.toUpperCase())) {
-                return unit;
-            }
+            typeMap.put(name, unit);
         }
-        return null;
+        return typeMap.get(name);
     }
 
 }

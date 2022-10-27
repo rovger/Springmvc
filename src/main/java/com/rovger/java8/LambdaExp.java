@@ -1,6 +1,10 @@
 package com.rovger.java8;
 
+import com.google.common.collect.Lists;
+import com.rovger.entity.User;
+
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Java8重要特性之Lambda表达式:
@@ -9,6 +13,18 @@ import java.util.*;
 public class LambdaExp {
 
     public static void main(String[] args) {
+        boolean flag = true;
+        UserInfo u_1 = new UserInfo(123L, true);
+        UserInfo u_2 = new UserInfo(124L, false);
+        UserInfo u_3 = new UserInfo(125L, false);
+        UserInfo u_4 = new UserInfo(126L, true);
+        List<UserInfo> userInfos = Lists.newArrayList(u_1, u_2, u_3, u_4);
+        List<Long> userIds = userInfos.stream()
+                .filter(u -> flag ? false : !u.getPaid())
+                .map(u -> u.getId())
+                .collect(Collectors.toList());
+        System.out.println("filtered new ids: " + userIds);
+
         /**
          * Java8对排序的改变
          */

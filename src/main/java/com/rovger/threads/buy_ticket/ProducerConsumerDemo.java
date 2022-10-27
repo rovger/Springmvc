@@ -17,6 +17,7 @@ public class ProducerConsumerDemo {
     static PriorityQueue<Integer> queue = new PriorityQueue<>(10);
 
     public static void main(String[] args) {
+        new Thread(ProducerConsumerDemo::testMethod).start();
         Thread producer = new Thread(new Producer());
         Thread consumer = new Thread(new Consumer());
         producer.start();
@@ -60,6 +61,8 @@ public class ProducerConsumerDemo {
         }
         future.cancel(true);
     }
+
+    private static void testMethod(){}
 
     static class Producer extends Thread {
         @Override

@@ -8,6 +8,8 @@ import java.util.*;
 public class ListFormat {
 
     public static void main(String args[]) {
+        List v = new Vector();
+
         List<String> list = new ArrayList<>();
         list.add("a");
         list.add("b");
@@ -146,7 +148,7 @@ public class ListFormat {
     }
 
     /**
-     * 最优解决方案，可以确保重复元素不被误删
+     * 最优解决方案，可以确保重复元素不被误删，这是删除下标啊 不是删元素
      *
      * @param list
      * @param indexs

@@ -12,6 +12,7 @@ import java.util.*;
 public class MapSort {
 
     public static void main(String[] args) {
+        Map m = new Hashtable();
         Map<String, Integer> map = new HashMap<>();
         map.put("weijlu", 26);
         map.put("yancheng", 4);

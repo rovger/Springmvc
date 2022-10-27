@@ -2,10 +2,7 @@ package com.rovger.utils;
 
 import com.google.common.collect.Lists;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Optional;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,10 +22,33 @@ public class CoreJava {
         Pattern pattern = Pattern.compile(sqlInjectRegex);
         Matcher matcher = pattern.matcher(mockStr);
         System.out.println("======= " + matcher.find());
+
+        Integer num1 = 100;
+        System.out.println("两数比较：" + num1.compareTo(null));
 /*
         String str = null;
         Optional.ofNullable("weijie").orElse(str.toString());
 */
+
+        /*int num1 = 2;
+		int num2 = 3;
+		System.out.print(Math.round(num1 / num2 * 10000) / 100.00 + "%");*/
+
+        System.out.println(new Random().nextInt(100));
+
+        int disturbanceSeconds = 120;
+        int distSeconds = (int) (Math.random() * disturbanceSeconds);
+        System.out.println(distSeconds);
+        // 只有末尾一个数为1时，才会返回true，如：10进制49的二进制110001 & 000001（二进制计算方式1*2的0次方）
+        System.out.println("概率性出现负值：" + ((distSeconds & 1) == 0 ? distSeconds : -distSeconds));
+        System.out.println("和15的二进制与运算结果(永远是它本身)：" + (distSeconds & 15));
+        /**
+         * 10进制49转二进制：
+         * - 49/2商24余1，24/2商12余0，12/2商6余0，6/2商3余0，3/2商1余1，1/2商0余1，再把所有余数倒叙排列，即110001
+         * - 记：（49）10进制 = （110001）二进制
+         */
+
+        //System.out.println("---"+TimeType.DAILY.getNickname());
 
  /*
         long num1 = 0L;
