@@ -1,7 +1,7 @@
 package com.rovger.utils;
 
+import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.DigestUtils;
-import sun.misc.BASE64Encoder;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -13,7 +13,6 @@ import java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.util.Base64;
 
 public class CrypterUtil {
 
@@ -85,8 +84,7 @@ public class CrypterUtil {
      */
     public static String decryptStr(String encryptStr, String decryKey) {
         try {
-            Base64.Decoder decoder = Base64.getDecoder();
-            byte[] bytes = decoder.decode(encryptStr);
+            byte[] bytes = Base64.decodeBase64(encryptStr);
 
             KeyGenerator kGen = KeyGenerator.getInstance(AES);
             SecureRandom random = SecureRandom.getInstance(SIGN_ALGORITHMS);
@@ -106,7 +104,7 @@ public class CrypterUtil {
     public static void main(String[] args) {
         String content = "android8#23423-32#weijie#test#byebye";
         String key = "7721f10cb16aeb985303615f8e9f4aa5";
-        String encryptStr = new BASE64Encoder().encode(encryptStr(content, key));
+        String encryptStr = Base64.encodeBase64String(encryptStr(content, key));
         System.out.println(encryptStr);
 
         System.out.println(CrypterUtil.decryptStr(encryptStr, key));

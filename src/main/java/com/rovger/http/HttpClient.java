@@ -42,7 +42,7 @@ public class HttpClient {
         params.put("device_id", "wJv5_888");
         params.put("app_key", "ffc0071ed165ec9e316253da049059b6");
         params.put("client_os_type", "4");
-        params.put("sig", "w7nsAGDbffwpTB79xPkb072ocqzWmOzXoL7grbZi+Qun9TYk3Vmsk1Tm9pmbACU+uVObWeJYDJUK8R9fOf+1Zu2Aul8FvT5Ae9E+AG0Rjd9EV6l5ntNE+7x863eAamOdICLglKiybFoncSrrsaU//G0kwQFyaf+W+pYGFxsdFC8VeuhmXtV5urQ8ezZdcC0ZEwjVA8linz3iWQ073y6K+fXUnDAnXoF61mIWkfyT5Es9TCTrElZ96+B48YtiXQ5L59iBjlIvtH11UGf+RsC2tO9kzT2PX/EX9qbgwsJIWqHCeqitk1S85wnwcqpsPLm9UMLBjOc6AS9Y9/lDR/KE5g==");
+        params.put("sig", "w7nsAGDbffwpTB79xPkb072ocqzWmOzXoL7grbZi");
 
         HttpClient httpClient = new HttpClient();
         String resp = httpClient.get(url, params, null);
