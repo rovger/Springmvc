@@ -1,7 +1,6 @@
 package com.rovger.java8;
 
 import com.google.common.collect.Lists;
-import com.rovger.entity.User;
 
 import java.util.*;
 import java.util.stream.Collectors;

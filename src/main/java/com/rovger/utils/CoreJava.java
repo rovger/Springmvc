@@ -1,7 +1,9 @@
 package com.rovger.utils;
 
 import com.google.common.collect.Lists;
+import org.apache.commons.codec.digest.DigestUtils;
 
+import java.nio.charset.Charset;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,6 +17,27 @@ import java.util.regex.Pattern;
 public class CoreJava {
 
     public static void main(String[] args) {
+
+        System.out.println("http://audiotest.cos.tx.xmcdn.com/storages/e1a2-audiotest/C3/04/GKwaPd0GWtsZABoiyAAAZ_-y.mp3"
+                .replaceFirst("audiotest.cos.tx.xmcdn.com", "weijie.com"));
+
+        Integer limit = 0;
+        System.out.println(limit.compareTo(0));
+
+        System.out.println("4453".contains(String.valueOf(4453)));
+        System.out.println((short) -123 & 0xFF);
+        System.out.println(matchDeviceIdAndAppId("f40122426977696e201000094528b700", 6657, 50));
+
+        String key = "weijie:123:nihao";
+        byte[] bytes = key.getBytes(Charset.forName("utf-8"));
+        System.out.println(Arrays.toString(bytes));
+
+        System.out.println("(1 << 7) - 1 " + ((1 << 7) - 1));
+        System.out.println("(2 << 24) " + (2 << 24));
+        System.out.println(12 & 17);
+        System.out.println(3453453 >>> 7);
+
+
 //        final Pattern sqlPattern = Pattern.compile("select|update|delete|insert|trancate|drop|where|from|and|or|case|when|union",Pattern.CASE_INSENSITIVE);
 //        System.out.println(sqlPattern.matcher("Weijie SELECT").replaceAll(""));
         final String sqlInjectRegex = "\\s+(insert|select|delete|update|from|where|count|grant|alter|truncate|drop|union|declare|exec|limit|case|when|sleep|like)\\s*";
@@ -24,7 +47,7 @@ public class CoreJava {
         System.out.println("======= " + matcher.find());
 
         Integer num1 = 100;
-        System.out.println("两数比较：" + num1.compareTo(null));
+//        System.out.println("两数比较：" + num1.compareTo(null));
 /*
         String str = null;
         Optional.ofNullable("weijie").orElse(str.toString());
@@ -34,6 +57,7 @@ public class CoreJava {
 		int num2 = 3;
 		System.out.print(Math.round(num1 / num2 * 10000) / 100.00 + "%");*/
 
+        // 建议使用
         System.out.println(new Random().nextInt(100));
 
         int disturbanceSeconds = 120;
@@ -80,6 +104,8 @@ public class CoreJava {
         System.out.println(add(2,3.4));
 
         System.out.println(convert(Lists.newArrayList(123)));
+
+        System.out.println(updateAlbumCleanTitle("【会员折扣】农村小大夫（免费，都市，搞笑）"));
     }
 
     /**
@@ -110,5 +136,28 @@ public class CoreJava {
         nums.add(3.0);
 
         return null;
+    }
+
+    public static String updateAlbumCleanTitle(String albumTitle) {
+        // 清空括弧&内容
+        String album_title_clean = albumTitle.replaceAll("（.*?）|【.*?】|\\[.*?\\]|\\(.*?\\)", "");
+        // 清空|&后面内容
+        album_title_clean = album_title_clean.replaceAll("｜.*|\\|.*|丨.*", "");
+        // 清空书名两边
+        album_title_clean = album_title_clean.replaceAll(".*《|》.*", "");
+        // 清空指定词汇
+        album_title_clean = album_title_clean.replaceAll("免费|合集|全集|完结", "");
+        return album_title_clean;
+    }
+
+    private static boolean matchDeviceIdAndAppId(String deviceId, long appId, int v3Percent) {
+        if (v3Percent <= 0) {
+            return false;
+        }
+        byte[] bytes = DigestUtils.md5(deviceId + appId);
+        if (bytes == null || bytes.length == 0) {
+            return false;
+        }
+        return (((short) bytes[0] & 0xFF) / 256d * 100d) < v3Percent;
     }
 }

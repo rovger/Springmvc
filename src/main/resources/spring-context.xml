@@ -14,14 +14,14 @@
         http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd">
 
     <!-- 加在mybatis配置信息,且这种配置方式整个项目只能用一次,如果在多个context xml文件中使用则无法加载到properties文件的值 -->
-    <context:property-placeholder location="classpath:db.properties"/>
+<!--    <context:property-placeholder location="classpath:db.properties"/>-->
 
     <!-- 导入mongodb配置文件 -->
-    <beans:import resource="spring-mongo.xml"></beans:import>
+<!--    <beans:import resource="spring-mongo.xml"></beans:import>-->
     <!-- 导入Mybatis配置文件 -->
-    <beans:import resource="spring-mybatis.xml"></beans:import>
+<!--    <beans:import resource="spring-mybatis.xml"></beans:import>-->
     <!-- 导入Dubbo provider配置文件 -->
-    <beans:import resource="provider.xml"></beans:import>
+<!--    <beans:import resource="provider.xml"></beans:import>-->
 
     <!-- do initialize -->
     <beans:bean id="doInit" class="com.rovger.Initializer" init-method="init"></beans:bean>

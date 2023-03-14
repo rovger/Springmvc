@@ -109,6 +109,8 @@ public class CrypterUtil {
 
         System.out.println(CrypterUtil.decryptStr(encryptStr, key));
 
+        System.out.println(getRandKey());
+
     }
 
     public static byte[] hmacSHA1(byte[] data, byte[] key) throws NoSuchAlgorithmException, InvalidKeyException {

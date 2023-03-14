@@ -1,5 +1,7 @@
 package com.rovger.utils;
 
+import com.google.common.collect.Lists;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -23,8 +25,14 @@ public class CollectionDemo {
     }
 
     public static void main(String[] args) {
-        List<String> searchKey = getkeys(walletSetupMap, "Load_Success");
-        System.out.println(searchKey.toArray());
+//        List<String> searchKey = getkeys(walletSetupMap, "Load_Success");
+//        System.out.println(searchKey.toArray());
+
+        List<Integer> ids = Lists.newArrayList(12840343);
+        List<List<Integer>> lists = Lists.partition(ids, 10);
+        for (List<Integer> ele : lists) {
+            System.out.println(ele);
+        }
     }
 
     private static List<String> getkeys(Map<String, String> amap, String value) {

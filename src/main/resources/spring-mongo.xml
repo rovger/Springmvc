@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-            http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd ">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:mongo="http://www.springframework.org/schema/data/mongo"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd-->
+<!--            http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd ">-->
 
-    <!--定义mongo对象，对应mongodb官网jar包中的Mongo-->
-    <mongo:mongo id="mongo" replica-set="${mongo.hostport}">
-        <mongo:options
-                connections-per-host="${mongo.connectionsPerHost}"
-                threads-allowed-to-block-for-connection-multiplier="${mongo.threadsAllowedToBlockForConnectionsMultiplier}"
-                max-wait-time="${mongo.maxWaitTime}"
-                connect-timeout="${mongo.connectTimeout}"
-                auto-connect-retry="${mongo.autoConnectionRetry}"
-                socket-keep-alive="${mongo.socketKeepAlive}"
-                socket-timeout="${mongo.socketTime}"
-                slave-ok="${mongo.slaveOK}"
-                write-number="1"
-                write-timeout="0"
-                write-fsync="true"
-        />
-    </mongo:mongo>
-    <!--mongo工厂，通过它来获取mongo实例，dbname为mongo数据库名，没有则自动创建-->
-    <mongo:db-factory dbname="test" mongo-ref="mongo"></mongo:db-factory>
+<!--    &lt;!&ndash;定义mongo对象，对应mongodb官网jar包中的Mongo&ndash;&gt;-->
+<!--    <mongo:mongo id="mongo" replica-set="${mongo.hostport}">-->
+<!--        <mongo:options-->
+<!--                connections-per-host="${mongo.connectionsPerHost}"-->
+<!--                threads-allowed-to-block-for-connection-multiplier="${mongo.threadsAllowedToBlockForConnectionsMultiplier}"-->
+<!--                max-wait-time="${mongo.maxWaitTime}"-->
+<!--                connect-timeout="${mongo.connectTimeout}"-->
+<!--                auto-connect-retry="${mongo.autoConnectionRetry}"-->
+<!--                socket-keep-alive="${mongo.socketKeepAlive}"-->
+<!--                socket-timeout="${mongo.socketTime}"-->
+<!--                slave-ok="${mongo.slaveOK}"-->
+<!--                write-number="1"-->
+<!--                write-timeout="0"-->
+<!--                write-fsync="true"-->
+<!--        />-->
+<!--    </mongo:mongo>-->
+<!--    &lt;!&ndash;mongo工厂，通过它来获取mongo实例，dbname为mongo数据库名，没有则自动创建&ndash;&gt;-->
+<!--    <mongo:db-factory dbname="test" mongo-ref="mongo"></mongo:db-factory>-->
 
-    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
-        <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"></constructor-arg>
-    </bean>
-</beans>
+<!--    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">-->
+<!--        <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"></constructor-arg>-->
+<!--    </bean>-->
+<!--</beans>-->

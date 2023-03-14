@@ -11,24 +11,19 @@
         <module name="MySpring" />
         <module name="module1" />
         <module name="springmvc" />
-        <module name="gateway" />
         <module name="springboot" />
+        <module name="gateway" />
         <module name="module2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="discovery" target="1.8" />
-      <module name="gateway" target="1.8" />
-      <module name="module1" target="1.8" />
-      <module name="module2" target="1.8" />
-      <module name="springboot" target="1.8" />
-      <module name="springcloud" target="1.8" />
-      <module name="springmvc" target="1.8" />
+      <module name="ez-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="discovery" options="-parameters" />
+      <module name="ez-demo" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="module1" options="-parameters" />
       <module name="module2" options="-parameters" />

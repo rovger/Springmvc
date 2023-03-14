@@ -16,12 +16,17 @@ import java.util.Date;
  */
 public class LocalDateUtils {
 
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
     public static void main(String[] args) {
+        System.out.println("------每分钟一个数值:" + System.currentTimeMillis() / 1000L / 60L);
+        System.out.println("------每小时一个数值:" + System.currentTimeMillis() / 1000L / 3600L);
 
         /**
          * LocalDate
          */
         LocalDate today = LocalDate.now();
+        LocalDate before3M = today.minusMonths(3);
         int year = today.getYear();
         int month = today.getMonthValue();
         int d = today.getDayOfMonth();
@@ -34,13 +39,14 @@ public class LocalDateUtils {
          * 时间格式化
          */
         String dayAfterTomorrow = "20220817";
-        LocalDate formatted = LocalDate.parse(dayAfterTomorrow, DateTimeFormatter.BASIC_ISO_DATE);
-        System.out.println("formatted: " + formatted);
+//        LocalDate formatted = LocalDate.parse(dayAfterTomorrow, DateTimeFormatter.BASIC_ISO_DATE);
+        System.out.println("TODAY formatted: " + today.format(FORMATTER));
 
         LocalDateTime day_f = LocalDateTime.now();
         DateTimeFormatter dtf_1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         String dtf_formatted = day_f.format(dtf_1);
         System.out.println("day dtf_1: " + dtf_formatted);
+
         LocalDate ld = LocalDate.parse(dtf_formatted, dtf_1);
         System.out.println("日期类型: " + ld);
 
@@ -91,6 +97,8 @@ public class LocalDateUtils {
         Instant instant = date.toInstant();
 
 
+        long l = LocalDateTime.now().minusMonths(3).toInstant(ZoneOffset.ofHours(8)).toEpochMilli();
+        System.out.println(l);
     }
 
 }
